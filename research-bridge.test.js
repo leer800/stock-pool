@@ -12,7 +12,7 @@ test('rejects invalid callback data and ignores arbitrary URL properties', () =>
  for (const ticker of [undefined, null, 123, {}, [], '<script>']) assert.equal(parseResearchReturn('#research='+encodeURIComponent(JSON.stringify({ticker}))),null);
  assert.equal(parseResearchReturn('#research='+encodeURIComponent(JSON.stringify({ticker:'NVDA',reportId:-1,preview:false}))),null);
  const entry=parseResearchReturn('#research='+encodeURIComponent(JSON.stringify({ticker:'NVDA',reportId:123,preview:false,url:'javascript:alert(1)'})));
- assert.equal(reportUrl(entry),'https://mastersgo.cc/#/?report=123');
+ assert.equal(reportUrl(entry),'https://digger.xwlab.win/#/?report=123');
 });
 test('deduplicates report links and tolerates storage failure', () => {
  let value='[]'; const storage={getItem:()=>value,setItem:(_,v)=>{value=v;}};
