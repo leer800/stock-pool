@@ -1,16 +1,16 @@
 {
   "version": 1,
   "status": "success",
-  "attemptedAt": "2026-10-11T09:19:09.839592+00:00",
-  "attemptedDate": "2026-10-11",
-  "dataDate": "2026-10-11",
+  "attemptedAt": "2026-10-11T16:27:34.279203+00:00",
+  "attemptedDate": "2026-10-12",
+  "dataDate": "2026-10-12",
   "message": "主动发现数据已更新。",
   "counts": {
-    "signals": 142,
+    "signals": 141,
     "papers": 38,
-    "candidates": 60
+    "candidates": 59
   },
   "warnings": [
-    "curl_cffi unavailable: skipped extra Yahoo quote enrichment"
+    "extra quote PSTG: HTTPError: HTTP Error 404: "
   ]
 }
