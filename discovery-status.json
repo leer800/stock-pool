@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "status": "success",
+  "attemptedAt": "2026-10-11T09:19:09.839592+00:00",
+  "attemptedDate": "2026-10-11",
+  "dataDate": "2026-10-11",
+  "message": "主动发现数据已更新。",
+  "counts": {
+    "signals": 142,
+    "papers": 38,
+    "candidates": 60
+  },
+  "warnings": [
+    "curl_cffi unavailable: skipped extra Yahoo quote enrichment"
+  ]
+}
