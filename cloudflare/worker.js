@@ -240,6 +240,13 @@ export default {
 
     const url = new URL(request.url);
     if (url.pathname.startsWith("/api/")) return handleApi(request, env);
+    if (url.pathname.startsWith("/reports/") && url.pathname.endsWith(".md")) {
+      // 日报是 UTF-8 纯文本：显式声明 charset，否则浏览器猜错编码导致中文乱码
+      const asset = await env.ASSETS.fetch(request);
+      const headers = new Headers(asset.headers);
+      headers.set("Content-Type", "text/markdown; charset=utf-8");
+      return new Response(asset.body, { status: asset.status, headers: applyHeaders(Object.fromEntries(headers)) });
+    }
     return env.ASSETS.fetch(request);
   },
 };
