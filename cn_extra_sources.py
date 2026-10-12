@@ -71,4 +71,12 @@ def fetch_36kr_feed():
     return items
 
 def fetch_all_cn_extra():
-    return fetch_wallstreetcn() + fetch_sina_7x24() + fetch_36kr_feed()
+    out = []
+    for name, fn in (("wallstreetcn", fetch_wallstreetcn),
+                     ("sina_7x24", fetch_sina_7x24),
+                     ("36kr", fetch_36kr_feed)):
+        try:
+            out.extend(fn())
+        except Exception as e:
+            print(f"[cn_extra_sources] {name} failed: {type(e).__name__}: {e}")
+    return out

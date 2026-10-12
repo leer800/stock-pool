@@ -1028,19 +1028,19 @@ def fetch_cn_flash_news(
         except Exception as error:
             warnings.append(f"{name}: {type(error).__name__}: {str(error)[:120]}")
     try:
-    for item in cn_extra_sources.fetch_all_cn_extra():
-        entry = {
-            "title": (item.get("title") or item.get("text", "")[:60]),
-            "summary": item.get("text", ""),
-            "url": item.get("url", ""),
-            "source_name": item.get("source", ""),
-            "date": item.get("published_at", ""),
-            "source_type": "news",
-        }
-        raw.append((entry, []))
-except Exception as error:
-    warnings.append(f"中文补充源: {type(error).__name__}: {str(error)[:120]}")
-signals: list[Signal] = []
+        for item in cn_extra_sources.fetch_all_cn_extra():
+            entry = {
+                "title": (item.get("title") or item.get("text", "")[:60]),
+                "summary": item.get("text", ""),
+                "url": item.get("url", ""),
+                "source_name": item.get("source", ""),
+                "date": item.get("published_at", ""),
+                "source_type": "news",
+            }
+            raw.append((entry, []))
+    except Exception as error:
+        warnings.append(f"中文补充源: {type(error).__name__}: {str(error)[:120]}")
+    signals: list[Signal] = []
     seen: set[str] = set()
     for entry, a_codes in raw:
         dt = parse_any_date(entry.get("date", "")) or now_utc()
