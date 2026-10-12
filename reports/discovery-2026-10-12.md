@@ -5,7 +5,7 @@
 - 当前线上合并股票池：137 只。
 - 线上股票池行情：requested=137，received=137，missing=[]。
 - 候选补充行情：extra=11，本次可用报价=148。
-- 本次新增/更新信号：141 条；arXiv 论文：38 篇；候选标的：59 个。
+- 本次新增/更新信号：164 条；arXiv 论文：37 篇；候选标的：61 个。
 - 规则：本报告只生成研究候选，不自动修改正式股票池。
 
 ## 建议新增候选
@@ -17,84 +17,81 @@ _无_
 | 代码 | 公司 | 市场 | 池状态 | 主题 | 总分 | 备注 |
 | --- | --- | --- | --- | --- | --- | --- |
 | AMD | Advanced Micro Devices | 美股 | not_in_pool | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 73 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
-| ISRG | Intuitive Surgical | 美股 | not_in_pool | Physical AI and robotics; Space defense and autonomous systems | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
-| NTAP | NetApp | 美股 | not_in_pool | AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
-| ROK | Rockwell Automation | 美股 | not_in_pool | Physical AI and robotics; Space defense and autonomous systems | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
-| TER | Teradyne | 美股 | not_in_pool | Physical AI and robotics; Space defense and autonomous systems | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
-| PSTG | Pure Storage | 美股 | not_in_pool | AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 67 | 不在当前股票池，需人工核实业务纯度；无线上行情，按中性处理 |
-| CAT | Caterpillar | 美股 | not_in_pool | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; Rack-scale AI factory | 65 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
-| NEE | NextEra Energy | 美股 | not_in_pool | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; Rack-scale AI factory | 65 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
-| CEG | Constellation Energy | 美股 | not_in_pool | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; Rack-scale AI factory | 63 | 不在当前股票池，需人工核实业务纯度；日内较强，注意追高 |
-| KLAC | KLA | 美股 | not_in_pool | AI PCB and advanced packaging; HBM memory and context storage; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 63 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
+| ISRG | Intuitive Surgical | 美股 | not_in_pool | AI data center power and cooling; Physical AI and robotics; Semiconductor equipment and manufacturing; Space defense and autonomous systems | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
+| NTAP | NetApp | 美股 | not_in_pool | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
+| ROK | Rockwell Automation | 美股 | not_in_pool | AI data center power and cooling; Physical AI and robotics; Semiconductor equipment and manufacturing; Space defense and autonomous systems | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
+| TER | Teradyne | 美股 | not_in_pool | AI data center power and cooling; Physical AI and robotics; Semiconductor equipment and manufacturing; Space defense and autonomous systems | 70 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
+| PSTG | Pure Storage | 美股 | not_in_pool | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing | 67 | 不在当前股票池，需人工核实业务纯度；无线上行情，按中性处理 |
+| KLAC | KLA | 美股 | not_in_pool | AI PCB and advanced packaging; AI inference serving and networking; HBM memory and context storage; Physical AI and robotics | 64 | 不在当前股票池，需人工核实业务纯度；日内位置温和 |
 
 ## 已在池内但信号增强的标的
 
 | 代码 | 公司 | 主题 | 总分 | 日涨跌 | 信号 |
 | --- | --- | --- | --- | --- | --- |
-| AMZN | Amazon | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 80 | 3.29 | How is Huawei Addressing the Long Context Memory Problem? - AI Magazine / Scality's AI Inferencing Factory accelerates inferencing - Blocks & Files / Scality AI inference factory… |
-| ANET | Arista Networks | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | 2.73 | 【公告全知道】PCB+华为+CPO+英伟达+6G！全球PCB细分龙头第三季度净利同比预增超200% / Japanese giant expands China chip packaging materials output amid AI boom - South China Morning Post / AM Intelligence Orders 2… |
-| AVGO | Broadcom | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | 0.39 | Japanese giant expands China chip packaging materials output amid AI boom - South China Morning Post / Fan Out Wafer Level Packaging Market To 2035: AI and Automotive Demand Drive… |
-| CRDO | Credo Technology | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | 2.21 | 【公告全知道】PCB+华为+CPO+英伟达+6G！全球PCB细分龙头第三季度净利同比预增超200% / AM Intelligence Orders 20,000 NVIDIA Rubin GPUs for India [2026] - https://tech-insider.org/ / Nvidia (NVDA) Q1 2027 Earnings C… |
-| CRWV | CoreWeave | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 80 | 0.61 | How is Huawei Addressing the Long Context Memory Problem? - AI Magazine / Scality's AI Inferencing Factory accelerates inferencing - Blocks & Files / Scality AI inference factory… |
-| GOOG | Alphabet | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 80 | 0.87 | How is Huawei Addressing the Long Context Memory Problem? - AI Magazine / Scality's AI Inferencing Factory accelerates inferencing - Blocks & Files / Scality AI inference factory… |
-| MRVL | Marvell Technology | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | 0.25 | 【公告全知道】PCB+华为+CPO+英伟达+6G！全球PCB细分龙头第三季度净利同比预增超200% / Japanese giant expands China chip packaging materials output amid AI boom - South China Morning Post / AM Intelligence Orders 2… |
-| MSFT | Microsoft | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 80 | 2.38 | How is Huawei Addressing the Long Context Memory Problem? - AI Magazine / Scality's AI Inferencing Factory accelerates inferencing - Blocks & Files / Scality AI inference factory… |
-| NBIS | Nebius Group | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 80 | 0.62 | How is Huawei Addressing the Long Context Memory Problem? - AI Magazine / Scality's AI Inferencing Factory accelerates inferencing - Blocks & Files / Scality AI inference factory… |
-| NVDA | NVIDIA | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | -0.52 | 【公告全知道】PCB+华为+CPO+英伟达+6G！全球PCB细分龙头第三季度净利同比预增超200% / Japanese giant expands China chip packaging materials output amid AI boom - South China Morning Post / AM Intelligence Orders 2… |
-| ORCL | Oracle | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 78 | 4.59 | How is Huawei Addressing the Long Context Memory Problem? - AI Magazine / Scality's AI Inferencing Factory accelerates inferencing - Blocks & Files / Scality AI inference factory… |
-| BE | Bloom Energy | AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage | 77 | 2.82 | 【公告全知道】PCB+华为+CPO+英伟达+6G！全球PCB细分龙头第三季度净利同比预增超200% / Trane Technologies AI Data Center Cooling: $550 Target - https://tech-insider.org/ / Why do liquid-cooled AI data centers requi… |
-| MU | Micron Technology | AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 77 | -0.66 | Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy - Technology Org / How is Huawei Addressing the Long Context Memory Problem? - AI Magazine /… |
-| SNDK | Sandisk | AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 77 | -1.72 | Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy - Technology Org / How is Huawei Addressing the Long Context Memory Problem? - AI Magazine /… |
-| STX | Seagate Technology | AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 77 | 1.06 | Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy - Technology Org / How is Huawei Addressing the Long Context Memory Problem? - AI Magazine /… |
-| TSLA | Tesla | Physical AI and robotics; Space defense and autonomous systems | 77 | 2.05 | 胡塞武装：过去24小时对沙特发动四轮袭击 打击机场和能源设施 / Inside the ‘robot gyms’ training machines for the real world - Financial Times / Physical AI in warehousing: closing the loop between perception,… |
-| WDC | Western Digital | AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 77 | 1.01 | Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy - Technology Org / How is Huawei Addressing the Long Context Memory Problem? - AI Magazine /… |
-| AMAT | Applied Materials | AI PCB and advanced packaging; CPO and optical interconnect; HBM memory and context storage; Semiconductor equipment and manufacturing | 72 | -0.5 | Japanese giant expands China chip packaging materials output amid AI boom - South China Morning Post / Metal Hard Mask Materials Market To 2035: EUV and Multi-Patterning Demand Dr… |
+| AMZN | Amazon | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Physical AI and robotics | 80 | -0.43 | Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference - B… / Same Model, Different Speed: Why Your Inference Provider… |
+| ANET | Arista Networks | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | -1.81 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / 联讯仪器：预计前三季度净利润19亿元至21亿元，较上年同期增长1,866.00%至2,072.95% / TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging… |
+| AVGO | Broadcom | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | -1.44 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging - New Electronics / Marvell Unveils Second-generatio… |
+| CRWV | CoreWeave | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Rack-scale AI factory | 80 | -3.02 | Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference - B… / Same Model, Different Speed: Why Your Inference Provider… |
+| GOOG | Alphabet | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Semiconductor equipment and manufacturing | 80 | 0.47 | Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference - B… / Same Model, Different Speed: Why Your Inference Provider… |
+| MSFT | Microsoft | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Semiconductor equipment and manufacturing | 80 | 0.73 | Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference - B… / Same Model, Different Speed: Why Your Inference Provider… |
+| NVDA | NVIDIA | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 80 | -1.75 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / 联讯仪器：预计前三季度净利润19亿元至21亿元，较上年同期增长1,866.00%至2,072.95% / 《铁路科技创新“十五五”规划》：推动卫星全场景赋能的移动闭塞列控系统和更高等级自动驾驶向更多新业务场景应用 / Adaptive DHiSparse: Spe… |
+| ORCL | Oracle | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Semiconductor equipment and manufacturing | 80 | -2.36 | Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference - B… / Same Model, Different Speed: Why Your Inference Provider… |
+| CRDO | Credo Technology | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 77 | -6.53 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / 联讯仪器：预计前三季度净利润19亿元至21亿元，较上年同期增长1,866.00%至2,072.95% / 【电报解读】大摩称美国AI供电缺口或达77GW，有望催生2400亿美元市场，机构看好该细分领域有望成为短期内最优的数据中心供电解决方案，这家公司可提供上游相关… |
+| MRVL | Marvell Technology | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; CPO and optical interconnect | 77 | -4.5 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / 联讯仪器：预计前三季度净利润19亿元至21亿元，较上年同期增长1,866.00%至2,072.95% / TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging… |
+| NBIS | Nebius Group | AI inference serving and networking; CPO and optical interconnect; HBM memory and context storage; Semiconductor equipment and manufacturing | 77 | -5.04 | Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference - B… / Same Model, Different Speed: Why Your Inference Provider… |
+| STX | Seagate Technology | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing | 77 | -3.0 | 美股存储股扩大跌幅 闪迪跌6.74%、美光科技跌超4% / U.S. High Bandwidth Memory (HBM): Solving AI Bottlenecks - Kings Research / The great AI pricing reset is coming. Are you ready? - CIO / DuoRate: Two… |
+| TSLA | Tesla | AI data center power and cooling; Physical AI and robotics; Semiconductor equipment and manufacturing; Space defense and autonomous systems | 77 | -0.73 | 《铁路科技创新“十五五”规划》：推动卫星全场景赋能的移动闭塞列控系统和更高等级自动驾驶向更多新业务场景应用 / 豪鹏科技：预计前三季度归母净利润2.33亿元-2.41亿元，同比增长32.96%-37.62% / Inside the ‘robot gyms’ training machines for the real world - Financial… |
+| WDC | Western Digital | AI data center power and cooling; AI inference serving and networking; HBM memory and context storage; Semiconductor equipment and manufacturing | 77 | -2.28 | 美股存储股扩大跌幅 闪迪跌6.74%、美光科技跌超4% / U.S. High Bandwidth Memory (HBM): Solving AI Bottlenecks - Kings Research / The great AI pricing reset is coming. Are you ready? - CIO / DuoRate: Two… |
+| INTC | Intel | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; HBM memory and context storage | 76 | -3.46 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging - New Electronics / 中微公司：子公司拟不超3500万元增资青禾晶元 / Adapti… |
+| AMAT | Applied Materials | AI PCB and advanced packaging; AI inference serving and networking; HBM memory and context storage; Physical AI and robotics | 75 | -1.95 | TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging - New Electronics / 中微公司：子公司拟不超3500万元增资青禾晶元 / How the Global Chip Industry Is Caught in a Strangleh… |
+| AMKR | Amkor Technology | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; HBM memory and context storage | 75 | -2.32 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging - New Electronics / 中微公司：子公司拟不超3500万元增资青禾晶元 / Adapti… |
+| ASML | ASML Holding | AI PCB and advanced packaging; AI data center power and cooling; AI inference serving and networking; HBM memory and context storage | 75 | -1.11 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 / TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging - New Electronics / 中微公司：子公司拟不超3500万元增资青禾晶元 / Adapti… |
 
 ## 高相关官方/新闻信号
 
 | 日期 | 来源 | 主题 | 强度 | 标题 | 链接 |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-11 | 财联社电报 | AI data center power and cooling; CPO and optical interconnect; Rack-scale AI factory | 72 | 【公告全知道】PCB+华为+CPO+英伟达+6G！全球PCB细分龙头第三季度净利同比预增超200% | https://api3.cls.cn/share/article/2501568?os=web&sv=8.4.6&app=CailianpressWeb |
-| 2026-10-11 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | AI PCB and advanced packaging; Semiconductor materials and consumables | 68 | Japanese giant expands China chip packaging materials output amid AI boom - South China Morning Post | https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUmJSYU9na3ExdEpSUzBaZ1kwemNxQWJ2TGlqdHBId3lXUV9NN3Jpc2gwbXMxMEV1cHhqVG91S2U1VzJDV3hkMWZabnFlRHZ2YWVIT0VLRGpueVpmdFlfeHBNeHhjTH… |
-| 2026-10-11 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 68 | Metal Hard Mask Materials Market To 2035: EUV and Multi-Patterning Demand Drives Growth - News and Statistics - IndexBox | https://news.google.com/rss/articles/CBMiwwFBVV95cUxNckJNMUVaMDlhVVd0aEhmTU1pZkQyREZVRk1ieXBmWGJEclFVZ2RHWGVkOGFKcklZT3pRTjRpZE1MMHFVVkNLODU3ZDNRZDVyYkhzWWhaZ2dQVEYySHU0Mk9ka3pwZm… |
-| 2026-10-11 | Google News: Vera Rubin AI factory NVIDIA | Rack-scale AI factory | 64 | AM Intelligence Orders 20,000 NVIDIA Rubin GPUs for India [2026] - https://tech-insider.org/ | https://news.google.com/rss/articles/CBMiggFBVV95cUxNNkdWUkxNUVdqaDR4VC14N1RKYjdLd1hkaXNDN3BYTFd3cnNWVU5PN19yOWdqSWVNQmtMV0l2U2l0VTFFbVBRZ3pyajhZNUE5N1Y5aVpCbk51amNvVVliSXVGaUltNT… |
-| 2026-10-11 | Google News: AI data center liquid cooling power | AI data center power and cooling | 64 | Trane Technologies AI Data Center Cooling: $550 Target - https://tech-insider.org/ | https://news.google.com/rss/articles/CBMifEFVX3lxTE1zWUVoUVhXWkpxMnB0UVNScGlpMC1seTR2OWtreFZDSHFCQ2ZJZmVHU1JRRm1EX0xlUldxZzhnQmZoYTRZbnFLNVpjbW0yeGEzcV94TXdyQ0twSEZhZnR0NzJfNzdSd2… |
-| 2026-10-11 | Google News: HBM AI server storage memory bandwidth | HBM memory and context storage | 64 | Why Is RAM So Expensive? How the AI Boom Is Raising the Price of Every Gadget You Buy - Technology Org | https://news.google.com/rss/articles/CBMib0FVX3lxTE5ObEVSRmVyVmZENzFSem43aWlKWUFiY0w4MUhCQ3dJeFp4RU1kaDcxMXBBUm52UGZEQW9EUnZUaHB4WU51RF85bmZwSEg3bmRZQnlMVTlhdUh1TlJoT0ZZYnVlM2dKdD… |
-| 2026-10-11 | 金十数据 | Physical AI and robotics | 61 | 胡塞武装：过去24小时对沙特发动四轮袭击 打击机场和能源设施 | https://www.jin10.com/ |
-| 2026-10-10 | Google News: Vera Rubin AI factory NVIDIA | Rack-scale AI factory | 64 | Nvidia (NVDA) Q1 2027 Earnings Call Transcript - Fortune | https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LMjJPTklTM3NaM1ZXV2hmbmpnZmxjRDg3NTZmREdqMThsVWVJVEFfckswa3JrXzlITDktYUxPQmIxM2xzLWItbGF1NFItdzBtc2IweVdRM2xteWstOWdsX1Rn?oc=5 |
-| 2026-10-10 | Google News: AI data center liquid cooling power | AI data center power and cooling | 64 | Why do liquid-cooled AI data centers require different backup power strategy? - Data Center Dynamics | https://news.google.com/rss/articles/CBMiwgFBVV95cUxPU09CdVBscmFyMnN3WUxwbEszOFFhbVRtSHVzYWkzVGhCY2k2YldyeUlZMHJJRmJVUjhjQ1QzUFpyUXlycWlSS0RUbUtWTkNkVW90Q0VXUy1XT2I3a3lPRmFLcklkTS… |
-| 2026-10-10 | Google News: physical AI robotics world model | Physical AI and robotics | 61 | Inside the ‘robot gyms’ training machines for the real world - Financial Times | https://news.google.com/rss/articles/CBMihAFBVV95cUxOLU1pd1pSTGtQdHFiMzlxazZJaFVYVFhwTU5IU0tnMzJTeEVlZFhlUXotbmtNN0RSUnp4VHRfX1czbTJmQXAzcFFQeW1FOW5sWTFhSVBVb0Qyc1IxdmFYMXp6Mmo5cF… |
-| 2026-10-09 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | AI PCB and advanced packaging; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 72 | Fan Out Wafer Level Packaging Market To 2035: AI and Automotive Demand Drive Expansion - News and Statistics - IndexBox | https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQXl4bE9mdllwQ0FuaHBpc0hiMFpQX0JTS0ZlNkNQN3l3T2ptREZQNnJfUTJ6ajFqMlVuOWo0a1Y3MDRpQmYycENIc1FJa1d5SnBRTVh5LUxQaGYzX3NXeUN1RjZOaU… |
-| 2026-10-09 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | AI PCB and advanced packaging; Semiconductor equipment and manufacturing; Semiconductor materials and consumables | 72 | Wafer Integrated Circuits Ic Shipping Handling Market Forecast to 2035: Advanced Packaging Demand Drives Growth - IndexBox | https://news.google.com/rss/articles/CBMi1wFBVV95cUxQV3B4bXJtTVp5emNacTc0eXc2el9nRnBhNENCZllnS0FTcERCcVhTdUVfd0ktTE5lNFdXNk9WUno2NDUzNGdOUF8wVjVxelRXMDlKWGJsYzBPbzJWbllOeGhFUU5fcn… |
-| 2026-10-09 | Google News: co-packaged optics AI data center CPO | AI PCB and advanced packaging; CPO and optical interconnect | 68 | From Advanced Packaging to Quantum Photonics: How System-Level Moore’s Law Is Redefining the Next Generation of Computing - semivision | https://news.google.com/rss/articles/CBMigAFBVV95cUxPdXJBR1hHdE1saTkzNEdsbVMtRGE3UjhCTkNKanFueVpselozQkc3YmxXZnFER3dGTkg1VFJtZEdRWWlEbW1TeU9tNTljSWhFc2ZtUDdLXzhndEpUMVk4T3FUdGxGU3… |
-| 2026-10-09 | Google News: long context inference serving KV cache AI | HBM memory and context storage; AI inference serving and networking | 68 | How is Huawei Addressing the Long Context Memory Problem? - AI Magazine | https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGd3c29xTkY2LXVpaFhWakwwMWxrSkNwQTFqamF2NGpoR2k1ZVR2d1JHZzdUbVJ1WVJ1UDVId3Y4SjlpYkl1OEt5Z1RKNVJORzBmY2liSmlTaktOc3F1WXRuYk1ZY0… |
-| 2026-10-09 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | AI PCB and advanced packaging; Semiconductor materials and consumables | 68 | TSMC and GlobalFoundries: How a $2 Billion Deal Could Reshape America’s Advanced Packaging Supply Chain - semivision | https://news.google.com/rss/articles/CBMifkFVX3lxTE1XdVdESnlGQzNDQWFqU3JpZ2E1aHNkVzFCTDZmUXRITkJYMEpvQjNRNWpqaG5jRGpfNkV4MWtsRjBmVkJoM0xKUjNTQUNHd2tzb3BBRTFYekwyXzFNQjlrYkszRFFSVm… |
-| 2026-10-09 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | AI PCB and advanced packaging; Semiconductor materials and consumables | 68 | GlobalFoundries and TSMC partner to establish US silicon interposer supply chain for AI packaging - New Electronics | https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWG1vQXFySW9CWTI0Ni1NYzFkcVNZc0xmNzVBQ3lxMW5IM0hfMnlfVlBYSmF0MTAzWEdtTGhlRXVhWDVBOWdNSF92TGNpay0yb05IQ0p1QndKNWt1bkNZc1g4YkpfWT… |
-| 2026-10-09 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | HBM memory and context storage; Semiconductor materials and consumables | 68 | How CHIPS Act Drives U.S. NAND Flash Market Growth - Kings Research | https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcFRWbnpoUDZLc29RaUxGWFNrV1hWQy12QURqOHlidlNSTHJPMklZcDY5SExoTXhqVjlzVDRVVnJ3M0lqLUtjeUI2TWZjaEloc3cyLU1qVWM4Mi1EVGlaQno2ck9fSF… |
-| 2026-10-09 | Google News: Vera Rubin AI factory NVIDIA | Rack-scale AI factory | 64 | Armenian AI factory rejects Russian allegations of intelligence gathering - JAMnews | https://news.google.com/rss/articles/CBMimwFBVV95cUxQWjNfc3pwVWtnS0JReEE1ZzlfVWFwclRDNTAtUGVqWTBOTkU1dFNuY0JLdTJlM05Qa1F1ampnSU9WZ0YxcV9FVXpMZENiSHp1YXBWelJ1bEg0V1ZtVWdMMWozRDBuWT… |
+| 2026-10-12 | 财联社电报 | AI PCB and advanced packaging; Rack-scale AI factory; AI data center power and cooling | 72 | 【公告全知道】算力+PCB+液冷服务器+光模块+数据中心！公司签署近30亿元算力芯片合同 | https://api3.cls.cn/share/article/2502582?os=web&sv=8.4.6&app=CailianpressWeb |
+| 2026-10-12 | wscn-a-stock-channel | CPO and optical interconnect; Rack-scale AI factory; AI data center power and cooling | 72 | 联讯仪器：预计前三季度净利润19亿元至21亿元，较上年同期增长1,866.00%至2,072.95% |  |
+| 2026-10-12 | wscn-a-stock-channel | AI data center power and cooling; Physical AI and robotics; Space defense and autonomous systems | 72 | 《铁路科技创新“十五五”规划》：推动卫星全场景赋能的移动闭塞列控系统和更高等级自动驾驶向更多新业务场景应用 |  |
+| 2026-10-12 | Google News: US domestic semiconductor supply chain advanced packaging materials equipment | AI PCB and advanced packaging; Semiconductor materials and consumables | 68 | TSMC, GF partnership focuses spotlight on change dynamics of advanced packaging - New Electronics | https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQS10MjMydERvOHBoYjRNMzNxTnFrakZGcnU3S0UtdHZNMzNaZVk1ZnRXRmZ3Uk96dGVEUXl4elpQZWxQZllFc3Z6el9EbWtRc0dUaWp4MTcyOFIyOFhGSkxjQUVaaE… |
+| 2026-10-12 | 财联社电报 | AI data center power and cooling; Rack-scale AI factory | 68 | 【电报解读】大摩称美国AI供电缺口或达77GW，有望催生2400亿美元市场，机构看好该细分领域有望成为短期内最优的数据中心供电解决方案，这家公司可提供上游相关原材料 | https://api3.cls.cn/share/article/2502695?os=web&sv=8.4.6&app=CailianpressWeb |
+| 2026-10-12 | 财联社电报 | HBM memory and context storage; 环球市场情报 | 68 | 美股存储股扩大跌幅 闪迪跌6.74%、美光科技跌超4% | https://api3.cls.cn/share/article/2502698?os=web&sv=8.4.6&app=CailianpressWeb |
+| 2026-10-12 | wscn-a-stock-channel | AI data center power and cooling; Physical AI and robotics | 68 | 豪鹏科技：预计前三季度归母净利润2.33亿元-2.41亿元，同比增长32.96%-37.62% |  |
+| 2026-10-12 | wscn-a-stock-channel | AI data center power and cooling; Rack-scale AI factory | 68 | 杰普特：持续收到北美某光纤连接解决方案提供商客户V采购订单，累计金额约1.63亿美元 |  |
+| 2026-10-12 | wscn-a-stock-channel | AI data center power and cooling; Rack-scale AI factory | 68 | 源杰科技：预计第三季度营收6.5亿元至7亿元，同比增长578.85%至659.70% |  |
+| 2026-10-12 | wscn-a-stock-channel | Rack-scale AI factory; AI data center power and cooling | 68 | 新宙邦：预计前三季度归母净利润15.3亿元至15.8亿元，同比增长104.53%至111.22% |  |
+| 2026-10-12 | wscn-a-stock-channel | AI data center power and cooling; Rack-scale AI factory | 68 | 宝胜股份：拟出资不超过4,569万元人民币在越南设立全资子公司越南宝联科技有限责任公司，并以该公司为实施主体，建设高端通 |  |
+| 2026-10-12 | Google News: Vera Rubin AI factory NVIDIA | Rack-scale AI factory | 64 | HARTING Joins NVIDIA MGX Ecosystem to Power Next-Generation AI Infrastructure - PR Newswire | https://news.google.com/rss/articles/CBMizgFBVV95cUxQM2wyalJra1FoU1dVYXBvTVY3NnJXeXN0bWpVMWhPUTBHeG9zcmJkSEM4WHE0czNTcTVWbmFnMGloRThrd3BnbTM3dGZQYU11elFSS3FvQVdoVUR6VU9XWDJLay1sY2… |
+| 2026-10-12 | Google News: AI data center liquid cooling power | AI data center power and cooling | 64 | AI Data Centers Cost Billions to Build. This is Why - Bloomberg.com | https://news.google.com/rss/articles/CBMidkFVX3lxTFBzUTIzTEVwSDZGRmkxV05DbzBzNERNektBTG5BNzB1NzBxVVNRZXIxOGZkRlhrVUx4SjN5aWJWdzdEZ2s4dEQ1SGdtbmx0eXNtM2VWb2gwcmhacDhzQ1JfN1czbGxKWn… |
+| 2026-10-12 | Google News: co-packaged optics AI data center CPO | CPO and optical interconnect | 64 | Celestica Unveils DS6005 Co-Packaged Optics Switch for AI Data Centers - Unite.AI | https://news.google.com/rss/articles/CBMilwFBVV95cUxOMzk2OERwakJjRnhHT1ZqM3BVSHd6MmlhT0wwWkNyWUxOYUduaC1yRTJ5RkVfbmRCa0NmdXNNdjh5Z1NmcmVHWUdzZXZfVk12aGlJOUxjZ0p4TDdYTUNPcXQza2lvUU… |
+| 2026-10-12 | Google News: co-packaged optics AI data center CPO | CPO and optical interconnect | 64 | Celestica Introduces the DS6005 Data Center Switch with Co-Packaged Optics to Enable Power-Efficient AI Fabrics - The Globe and Mail | https://news.google.com/rss/articles/CBMiowJBVV95cUxPWmxDTTZ5dVZaLWExWkRRU3AxSVRiV3JHQW9obVd2VGF1WWY5cm5fOElteEp2d3kybVZBVmVEUTNyQ3JKY1puV0NjSVdaaGFsb2JnSWpPUGNVNFdSdGlMcjdfZXJGMm… |
+| 2026-10-12 | Google News: long context inference serving KV cache AI | AI inference serving and networking | 64 | Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference - Business Wire | https://news.google.com/rss/articles/CBMigAJBVV95cUxNakF6b3lUQlZoYW5Gc3pTeGxSTnRMbW5XWkw3VXBXT3lrMDZvN0QzRUtYUlU0bi05QW1lb2NhOHFjeG9VaGhWbUVzVEhwSXZqVXllSndrY3JlRXlWVlNfOUpYNHFuUj… |
+| 2026-10-12 | Google News: HBM AI server storage memory bandwidth | HBM memory and context storage | 64 | U.S. High Bandwidth Memory (HBM): Solving AI Bottlenecks - Kings Research | https://news.google.com/rss/articles/CBMigwFBVV95cUxOQnctdHhYcEZIZ2lCZFFTVEZoMmt4eGEtcUU3ZTExNGFHanNnTU1JRFRIRlgyeTVlY1FUeDNnWXBwRlVLbXVHWU5RdEVTMzB1VG1uYlVfZVY3OEZod3NrY1dialdOUD… |
+| 2026-10-12 | Google News: HBM AI server storage memory bandwidth | HBM memory and context storage | 64 | The great AI pricing reset is coming. Are you ready? - CIO | https://news.google.com/rss/articles/CBMilgFBVV95cUxQMmpYZkFGaGpYVFFYUHhaZ01JMV9Id2pzaVE1aU9EUnhQVDZGalZNaExuVnY4dno5WGo3azZ1Z0lKZV9zb0l3NEZLSHVNVkR5a2ZyM3dMVENvbEZ0a0t0UjB5eE5Ba2… |
 
 ## 高相关 arXiv 论文
 
 | 日期 | 主题 | 分数 | 标题 | 映射 | 链接 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-09 | AI inference serving and networking; Semiconductor equipment and manufacturing | 84 | Adaptive DHiSparse: Speculative Decoding over a Load-Adaptive KV Hierarchy | AMAT; AMD; AMKR; AMZN; ANET; ASML; AVGO; CRDO; CRWV; ENTG; GOOG; INTC; KLAC; LRCX; MRVL; MSFT; NBIS; NVDA; ORCL; Q; TSM; VECO | https://arxiv.org/abs/2610.13708v1 |
+| 2026-10-09 | AI inference serving and networking; HBM memory and context storage | 80 | DuoRate: Two-Rate Per-Expert Precision Allocation for Mixture-of-Experts Serving | AMD; AMZN; ANET; AVGO; CRDO; CRWV; GOOG; MRVL; MSFT; MU; NBIS; NTAP; NVDA; ORCL; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.13328v1 |
+| 2026-10-09 | Physical AI and robotics; Semiconductor equipment and manufacturing | 80 | ManeuverFlow: Maneuver Hypothesis Generation with Future Evidence for Trajectory Evaluation and Refinement in End-to-End Autonomous Driving | AMAT; AMKR; ASML; ENTG; INTC; ISRG; KLAC; LRCX; NVDA; Q; ROK; TER; TSLA; TSM; VECO | https://arxiv.org/abs/2610.13409v1 |
+| 2026-10-09 | Physical AI and robotics; Space defense and autonomous systems | 80 | Grounded-Dreamer: Robot Learning from World Model Synthetic Data with Physical Grounding | ASTS; AVAV; ISRG; LMT; NVDA; PL; RKLB; ROK; RTX; TER; TSLA | https://arxiv.org/abs/2610.13164v1 |
+| 2026-10-09 | HBM memory and context storage | 78 | Taking Tokenization off the Host for Agentic LLM Serving | AMD; AMZN; BE; GOOG; MSFT; MU; NOW; NTAP; NVDA; ORCL; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.13325v1 |
+| 2026-10-09 | HBM memory and context storage | 70 | KV-Repurpose: A Testbed for Evaluating Non-Prefix KV-Cache Reuse | AMD; MU; NTAP; NVDA; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.13060v1 |
+| 2026-10-09 | HBM memory and context storage | 70 | RAMP: Recurrent Adaptive Mixed Precision for Efficient Prefill in Recurrent-Depth Language Models | AMD; AMZN; GOOG; MSFT; MU; NTAP; NVDA; ORCL; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.13041v1 |
+| 2026-10-09 | AI inference serving and networking | 70 | ReplaySSM: Cache SSM Inputs, Not State | AMD; AMZN; ANET; AVGO; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.13778v1 |
+| 2026-10-09 | Physical AI and robotics | 68 | Sampling-based Kinodynamic Planning with World Models | ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.12910v1 |
+| 2026-10-09 | AI inference serving and networking | 66 | S$^3$R: Fast and Faithful RL Rollouts via Self-Sparse Speculative Decoding | AMD; AMZN; ANET; AVGO; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.13202v1 |
+| 2026-10-09 | AI inference serving and networking | 66 | Overcoming Data Imbalances with Expert Selection Biases | AMD; AMZN; ANET; AVGO; BE; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.13370v1 |
+| 2026-10-09 | Physical AI and robotics | 66 | Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics | INTC; ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.13522v1 |
+| 2026-10-09 | Physical AI and robotics | 66 | LeapBot-JAC: Joint Action Chains for World Action Models | BE; ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.12886v1 |
+| 2026-10-09 | Physical AI and robotics | 64 | Dream to Remember: Continual Steering of Generalist Robot Policies with World Models | ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.13816v1 |
 | 2026-10-08 | HBM memory and context storage; Semiconductor equipment and manufacturing | 80 | Read What Matters: Query-Adaptive Quantization for KV Caches | AMAT; AMD; AMKR; ASML; ENTG; INTC; KLAC; LRCX; MU; NTAP; NVDA; PSTG; Q; SNDK; STX; TSM; VECO; WDC | https://arxiv.org/abs/2610.11245v1 |
-| 2026-10-08 | AI data center power and cooling; AI inference serving and networking | 80 | When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization | AMD; AMZN; ANET; AVGO; BE; CAT; CEG; CRDO; CRWV; CVX; ETN; FLNC; GEV; GOOG; LNG; MRVL; MSFT; NBIS; NEE; NVDA; OKLO; ORCL; SMR; VRT | https://arxiv.org/abs/2610.11226v1 |
-| 2026-10-08 | Physical AI and robotics; Space defense and autonomous systems | 80 | Acting from Belief, Looking When Needed: A Bayesian Spatial World Model for Navigation under Intermittent Perception | ASTS; AVAV; ISRG; LMT; NVDA; PL; RKLB; ROK; RTX; TER; TSLA | https://arxiv.org/abs/2610.11591v1 |
-| 2026-10-08 | AI inference serving and networking | 74 | Smoothing the Top-k Exposure Boundary for Sparse Mixture-of-Experts | AMD; AMZN; ANET; AVGO; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.11575v1 |
+| 2026-10-08 | AI inference serving and networking | 74 | Smoothing the Top-k Exposure Boundary for Sparse Mixture-of-Experts | AMD; AMZN; ANET; AVGO; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.11575v2 |
 | 2026-10-08 | HBM memory and context storage | 70 | VFold: Symmetry-Aware Cross-Layer Value Cache Compression | AMD; AMZN; BE; GOOG; MSFT; MU; NTAP; NVDA; ORCL; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.12338v1 |
 | 2026-10-08 | HBM memory and context storage | 70 | Probing for Long-Horizon Deductive Reasoning Capabilities in Language Models with Prolog | AMD; AMZN; GOOG; MSFT; MU; NTAP; NVDA; ORCL; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.11592v1 |
-| 2026-10-08 | AI inference serving and networking | 70 | RouterInterp: Understanding Superposed Specialisation in Mixture of Experts Routing | AMD; AMZN; ANET; AVGO; COHR; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.11775v1 |
-| 2026-10-08 | Physical AI and robotics | 68 | LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild | BE; ISRG; NVDA; ROK; RTX; TER; TSLA | https://arxiv.org/abs/2610.12368v1 |
-| 2026-10-08 | Physical AI and robotics | 68 | PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies | ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.12285v1 |
-| 2026-10-08 | Physical AI and robotics | 68 | MiniWAM: Learning Compact Future Targets for Efficient World-Action Modeling | ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.12194v1 |
-| 2026-10-08 | Physical AI and robotics | 68 | Rewiring Semantics, Dynamics, and Control: A Simple yet Effective Action-Centric Tri-Stream Transformer | ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.11416v1 |
-| 2026-10-08 | HBM memory and context storage | 66 | BioBigBird: A Sparse Attention Model for Long-Range Dependency Processing in Biomedical Text | AMD; AMZN; GOOG; MSFT; MU; NTAP; NVDA; ORCL; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.11430v1 |
-| 2026-10-08 | HBM memory and context storage | 66 | Rehearse Everything, Remember Nothing: Attic-KV Rehearses What Will Be Read | AMD; BE; MU; NTAP; NVDA; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.12133v1 |
-| 2026-10-08 | HBM memory and context storage | 66 | Bridging KV-Cache Quantization and Linear Attention: From Theory to Pretrained Weight Migration | AMD; BE; MU; NTAP; NVDA; PSTG; SNDK; STX; WDC | https://arxiv.org/abs/2610.11214v1 |
-| 2026-10-08 | AI inference serving and networking | 66 | Cost-Aware Mixture-of-Experts Coordination for Model Markets | AMD; AMZN; ANET; AVGO; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.11908v1 |
-| 2026-10-08 | AI inference serving and networking | 66 | DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert Composition | AMD; AMZN; ANET; AVGO; CRDO; CRWV; GOOG; MRVL; MSFT; NBIS; NVDA; ORCL | https://arxiv.org/abs/2610.11317v1 |
-| 2026-10-08 | Physical AI and robotics | 64 | DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training | ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.12468v1 |
-| 2026-10-08 | Physical AI and robotics | 64 | LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC | ISRG; NVDA; ROK; TER; TSLA | https://arxiv.org/abs/2610.12407v1 |
 
 ## 行情位置
 
@@ -102,27 +99,27 @@ _无_
 
 | 代码 | 涨跌幅 | 价格 | 市场 |
 | --- | --- | --- | --- |
-| SNOW | 7.42 | 368.89 | 美股 |
-| 600206.SS | 7.41 | 47.95 | A股 |
-| LI | 5.87 | 11.54 | 美股 |
-| CIEN | 5.6 | 449.77 | 美股 |
-| LITE | 5.22 | 1103.36 | 美股 |
-| PLTR | 5.17 | 209.05 | 美股 |
-| ORCL | 4.59 | 141.4 | 美股 |
-| CEG | 4.5603 | 298.07 | 美股 |
+| ASTS | 4.97 | 53.5 | 美股 |
+| META | 3.43 | 743.34 | 美股 |
+| 688072.SS | 2.78 | 633 | A股 |
+| 300990.SZ | 2.18 | 95 | A股 |
+| IREN | 1.63 | 35.77 | 美股 |
+| 688120.SS | 1.61 | 229 | A股 |
+| LNG | 1.45 | 282.22 | 美股 |
+| COIN | 1.45 | 182 | 美股 |
 
 ### 跌幅靠前
 
 | 代码 | 涨跌幅 | 价格 | 市场 |
 | --- | --- | --- | --- |
-| ASTS | -10.48 | 50.97 | 美股 |
-| 301511.SZ | -7.32 | 87 | A股 |
-| 300285.SZ | -6.91 | 56.04 | A股 |
-| 688498.SS | -6.54 | 1206.01 | A股 |
-| 300442.SZ | -6.09 | 58.63 | A股 |
-| 600183.SS | -5.85 | 124.14 | A股 |
-| 603256.SS | -5.73 | 117.5 | A股 |
-| 002916.SZ | -5.64 | 347.25 | A股 |
+| 002436.SZ | -8.15 | 35.37 | A股 |
+| 002428.SZ | -8.15 | 80.7 | A股 |
+| 300285.SZ | -7.73 | 51.71 | A股 |
+| 000962.SZ | -7.42 | 48.65 | A股 |
+| 300408.SZ | -7.34 | 103.6 | A股 |
+| 601138.SS | -7.17 | 52.05 | A股 |
+| SNDK | -7.09 | 1469.6 | 美股 |
+| 000938.SZ | -6.97 | 28.29 | A股 |
 
 ## 输出文件
 
