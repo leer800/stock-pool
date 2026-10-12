@@ -18,6 +18,13 @@ def _get(url, timeout=15):
 def _clean(html):
     return unescape(re.sub(r"<[^>]+>", " ", html or "")).strip()
 
+def _iso(value):
+    """把 int/float unix 时间戳转成 ISO 字符串；字符串原样返回。"""
+    if isinstance(value, (int, float)) and value:
+        from datetime import datetime, timezone
+        return datetime.fromtimestamp(value, tz=timezone.utc).isoformat()
+    return value or ""
+
 def fetch_wallstreetcn(channel="a-stock-channel", limit=100):
     """华尔街见闻快讯。channel: 'a-stock-channel' (A股) 或 'global-channel' (全球)。
     免 key；字段 id/title/content_text/content/display_time(unix)/related_themes；
@@ -34,7 +41,7 @@ def fetch_wallstreetcn(channel="a-stock-channel", limit=100):
             items.append({"source": f"wscn-{channel}", "id": str(it["id"]),
                           "title": it.get("title") or "",
                           "text": _clean(it.get("content_text") or it.get("content")),
-                          "published_at": it.get("display_time")})
+                          "published_at": _iso(it.get("display_time"))})
         cursor = batch[-1]["id"]
         time.sleep(1)
     return items
