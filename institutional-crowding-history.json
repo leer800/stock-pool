@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2026-10-12T14:27:50.845344+00:00",
+  "updatedAt": "2026-10-12T14:37:59.149781+00:00",
   "benchmark": "SOXX",
   "snapshots": [
     {
@@ -1875,13 +1875,13 @@
     },
     {
       "date": "2026-10-12",
-      "asOf": "2026-10-12T14:27:50.844278+00:00",
+      "asOf": "2026-10-12T14:37:59.148931+00:00",
       "rows": [
         {
           "ticker": "AMD",
-          "score": 53.0,
+          "score": 53.2,
           "zone": "watch",
-          "currentPrice": 589.35,
+          "currentPrice": 588.74,
           "targetMean": 636.21,
           "targetMedian": 635.5,
           "bullishShare": 80.0,
@@ -1894,7 +1894,7 @@
           "ticker": "AVGO",
           "score": 70.8,
           "zone": "crowded",
-          "currentPrice": 356.32,
+          "currentPrice": 356.34,
           "targetMean": 531.31,
           "targetMedian": 535.0,
           "bullishShare": 94.0,
@@ -1907,7 +1907,7 @@
           "ticker": "MRVL",
           "score": 66.7,
           "zone": "crowded",
-          "currentPrice": 263.2,
+          "currentPrice": 263.3,
           "targetMean": 337.99,
           "targetMedian": 350.0,
           "bullishShare": 91.3,
@@ -1918,9 +1918,9 @@
         },
         {
           "ticker": "MU",
-          "score": 78.5,
+          "score": 78.4,
           "zone": "crowded",
-          "currentPrice": 981.53,
+          "currentPrice": 982.69,
           "targetMean": 1555.13,
           "targetMedian": 1550.0,
           "bullishShare": 91.8,
@@ -1931,9 +1931,9 @@
         },
         {
           "ticker": "NVDA",
-          "score": 68.4,
+          "score": 68.3,
           "zone": "crowded",
-          "currentPrice": 225.25,
+          "currentPrice": 225.33,
           "targetMean": 328.72,
           "targetMedian": 315.0,
           "bullishShare": 95.2,
@@ -1944,9 +1944,9 @@
         },
         {
           "ticker": "SMCI",
-          "score": 20.2,
+          "score": 20.9,
           "zone": "balanced",
-          "currentPrice": 40.21,
+          "currentPrice": 40.07,
           "targetMean": 42.27,
           "targetMedian": 43.0,
           "bullishShare": 22.2,
