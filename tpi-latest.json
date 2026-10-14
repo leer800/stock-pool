@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-10-14T01:59:50.897761+00:00",
+  "asOf": "2026-10-14T07:46:39.570825+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 73.1,
+    "value": 73.0,
     "zone": "high_pressure",
-    "change5d": 6.2
+    "change5d": 6.1
   },
   "drivers": [
     {
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 23.1,
-      "value": "15.27",
-      "changeLabel": "近5日 +0.26",
+      "pressureScore": 22.4,
+      "value": "15.21",
+      "changeLabel": "近5日 +0.13",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-13T20:15:01+00:00",
+      "updatedAt": "2026-10-14T07:31:31+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 55.5,
+      "score": 55.2,
       "components": [
         "MOVE",
         "标普500",
@@ -155,7 +155,7 @@
     {
       "date": "2026-08-24",
       "label": "08.24",
-      "value": 74.5
+      "value": 74.6
     },
     {
       "date": "2026-08-31",
@@ -165,7 +165,7 @@
     {
       "date": "2026-09-08",
       "label": "09.08",
-      "value": 71.6
+      "value": 71.7
     },
     {
       "date": "2026-09-15",
@@ -180,7 +180,7 @@
     {
       "date": "2026-09-29",
       "label": "09.29",
-      "value": 82.8
+      "value": 82.9
     },
     {
       "date": "2026-10-06",
@@ -190,7 +190,7 @@
     {
       "date": "2026-10-13",
       "label": "10.13",
-      "value": 75.8
+      "value": 75.9
     }
   ],
   "policyEvents": [
@@ -220,17 +220,17 @@
           "phase": "softening"
         },
         {
-          "title": "Cambridge business says tariff delay brings relief but 'durable agreement' still needed - CBC",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUZheENzaHpYWFdrblV4Ymx2elkzTVpVU2V1X3VFeWhoZzJuQXRVVDBMWjlkMVZGQnVZOEdndHJ5MUxzWHdHZVdjWnZaaEJJYk5JQmZtcEJhcUdqSW94MmZZTzZuY29rZ3RkOXA1MGxlTThCQk1GOU9XZDh5Y3lXQV8zX3BPSUgtZ0Z4bzBXcXVMbkx5M1FpWUdzeHNTNzhIa2R3TjdMSFJaUGxBNTBPd1BpdEswWm5qUHFrNW1hcDEwdXFyS1B2RUlJaw?oc=5",
-          "source": "CBC",
-          "publishedAt": "2026-08-19T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
           "title": "US ambassador: EU must honor its trade deal with Trump - POLITICO.eu",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOVNrSFlab2NEamNtbWdmSWdUb2E2TUoyVTRfQXZMT3g4TklxVFpsMElSR29aXzZ1TWZxcGh4UnNjeThZNE9fVWJIcm1zMUloZ3ROeGlwblowZlE1ekNoUkJ3SF9BMVJMcDNyVG0tbl8xU3ZzOHUwN1A4MlFtVWw4dGREVmFTVXNqWFFxekNXWDRnazFaMVVPYw?oc=5",
           "source": "POLITICO.eu",
           "publishedAt": "2026-05-18T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Donald Trump delays planned 50% tariffs on Canada, cites trade deal - Toronto Star",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMWJ0eURnOWd2S0JiUldVT25CWkRyVVFCcWZ3MHlDMmxKU09iYjRIekF6VVV0MTZabXFsWWVFa210Y1oyZG02bHdGeXNBQzlPZlFxc3JmdmtWRW9VVUNaODRrcWR1RFctNmFDdEdxWjFCUlczVlRDSFRoMk1iTWdvMmVxc0RVLTVFbWlQT2dmMWd4MkZrZHEyaVdNOHhzRkNlR24tSW9kQkI3eFpYeTBVelFITUFmeTllOVZQcjVQTUdTRG9sMjktQV9ZZTF3dmppS0VuRVhXLVVvNDJIOGlkSU9KaEFEYkstc2xpeUpQeXg1RXNCRGhSS3JlQlpkUTNG?oc=5",
+          "source": "Toronto Star",
+          "publishedAt": "2026-08-18T07:00:00+00:00",
           "phase": "softening"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T01:59:49.628417+00:00",
+      "updatedAt": "2026-10-14T07:46:38.665640+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
+        "escalation": 1,
         "softening": 0,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 7
       },
       "items": [
         {
@@ -272,18 +272,18 @@
           "phase": "monitoring"
         },
         {
+          "title": "International Trade 2025 Year-End Update - Gibson Dunn",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9neVRUZjlOYzlldXl5SXlDME9yX2s3Y0xVS25xUllqNF94VkxZbWxxYkRGdm94MnV4TGhfSGp5RkNrY0I1UTNaU3dOY0xwcVZLOUtnOC02WUlNcXJUZEtxOUxvdEZ4QS1sX3k4OWF3Z1R6aWc1UHpR?oc=5",
+          "source": "Gibson Dunn",
+          "publishedAt": "2026-02-06T08:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
           "title": "EXCLUSIVE: Trump administration drafting ban on Chinese data center devices, sources say - Reuters",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZEFjZDdmMzAxM2tTaHIwTWpFMHVCUldHdGs3Y3hTejI2ajRQeTVWUFU4RThDRGlIUmhXM0duczgySG5xUExONFhPMmtZR2liTVVJR19JcVhBYndwTjBURk1qM0lvOU1sTnlGYVd3VUxLQTJBQklmZjlsSmdUd0p1bVpGRElVSlp5NHl3YTBnSmhrMUpfSl9ld0NmLVhDdTF0MXg1enZIcXE0aEpFQTJDRWxYUUdRdw?oc=5",
           "source": "Reuters",
           "publishedAt": "2026-08-04T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "As the (Customs and Trade) World Turns: April 2026 - ArentFox Schiff",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUHk5QTluY1NBWWZmWXhVVzJneG5nNmxidjk4SWpGcm9XLWF4dnhrVWJYVUQxUTZyVlQ1RjhBM2JJd2NfUTNZTWdNM0dpX2dLbEtFS2t3dlN4NVpQSERadVZnalBkdmZ5TDVXUmVvMHd5OXhPY3hvRU1TUW84SkktNTNKeDNoczZjbXYwXzRxWVpaMzhUVDFIcTA5U3o4TDA3T0tvYWRIclZjNjVQWFNFZA?oc=5",
-          "source": "ArentFox Schiff",
-          "publishedAt": "2026-04-23T07:00:00+00:00",
-          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T01:59:49.503455+00:00",
+      "updatedAt": "2026-10-14T07:46:38.531887+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,39 +303,39 @@
       "name": "军事与地缘",
       "phase": "softening",
       "phaseCounts": {
-        "escalation": 1,
+        "escalation": 2,
         "softening": 6,
         "execution": 0,
-        "monitoring": 1
+        "monitoring": 0
       },
       "items": [
         {
-          "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-09-29T07:00:00+00:00",
+          "title": "After Russian Diesel Deal, Trump Faces New Crisis Over Ukraine - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSTk1Y0pUTWwxTHNub0ZtZEdscWU3ZXVmRjlPM3lhZUVSODVrZkpGYXJkOVB5RXVCUXI2akZXV0FZTDUwNlBGdGtHUmhSNXNCSjBjRXBNamNWM01UeWdOSXRnSkx2ZEJOTm5pU2tJWElXVkNkT01WXzhNUWNpLWU5V3I4QVFmNWhsNkttc3ZMWXJ2dzRHRi1sZGZjbi1sYWEy?oc=5",
+          "source": "The New York Times",
+          "publishedAt": "2026-10-12T18:15:12+00:00",
           "phase": "softening"
         },
         {
-          "title": "US launches new strikes on Iran after reinstating oil sanctions over shipping attacks - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbDVhY1RZUlFOQjM4aHdQa05DS0JCT0tfV3gxOUlqTGVFbWVTQnVhbUdDVElDMmxmVm1mUGZyOEQ5bGt1b1JmSGM3Mm1RNGZWdjFpei1wX1hXOFRXcXoxMDBmVy1SM1lMVEQ5U3E0RWNKbHJjTVlGSEd3RnZ1dmFIcWFjUFVhdDQxWjliNTZMMHkzX25IaXVreFRGN09qZ2k0VGxhVDNsTXlrV2pZTERKTmR0N2szZGZsZHB6V3lCWU1xZ0JQZXE0SFhlOWo?oc=5",
+          "title": "Kyiv says Russia hits energy targets despite Trump ceasefire announcement - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWxLV1J6R2V3UDNKc2FwUU9oQ2dvUGVXd2FQTTNQdFM2QVVBLU54eWN0SFktR25BT0l3U3NIRldielJHYjBLY1lfMTk1OGZGVUZtOG4yMXhINzZSVDhwdXZScWtCUDdVYWxjSkF6RThTcHhyMWN3Z1hrWjNMSFJFMm04eVRKZ2luSkJjWUpKM2RYSXdXa2ZKbk94MjRjaXFDRDRtLXd3c3pMbk1Ld21LOE13WEZMUXp5YWdEcnNYMzc?oc=5",
           "source": "Reuters",
-          "publishedAt": "2026-07-07T07:00:00+00:00",
+          "publishedAt": "2026-10-12T09:50:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Ukraine disputes Trump's claim of energy ceasefire as Russian diesel deal draws fire - PBS",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRjdEZ2RyUmxzcnAzT21NZFA0b1FOenpaYVNNSXVVckR2UzNmbkhyT21SemNQZXZURTVfVGsyTW15Mm5aRzJTWTV2UEFSZjlRT3YtRlc3YnFzWklKb0ZWYnY1T1k1UlFsd082RUtsQWVodzJ4ank5RjRrZ21GZTlzX2FkYUlhWUhRb25kSEVIMUdPaC1hc1dxTW9VSHhaUTNaUkVtTE5KS2drMUg3M0tTc3JkMkVQZmhH?oc=5",
+          "source": "PBS",
+          "publishedAt": "2026-10-12T22:45:37+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Donald Trump is again threatening to cut off arms to Ukraine - The Economist",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlBKb2V2OFN3WTN2R2p6OVpfQ2JoQ3BSM0V6TVp1aW42aF9zSGJCdFJMUEN6MjZGQmJxV0Fpb3FlQmtWRmtDTVh2TW5lVzNRNFFIV0FOZW85ei1IZEd6RG9Ic0FqalFVTzJaNGpneGZwSnR3OVl6ZEdZMjA0UGpvbjZqOWgyam0yQktIOHpNMnRubE9NTjE0bXFzTmtPaDFuQ0ZoMVB2VQ?oc=5",
+          "source": "The Economist",
+          "publishedAt": "2026-10-12T12:00:25+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-07-08T07:00:00+00:00",
-          "phase": "softening"
-        },
-        {
-          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
-          "source": "CNBC",
-          "publishedAt": "2026-07-27T07:00:00+00:00",
-          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T01:59:49.753572+00:00",
+      "updatedAt": "2026-10-14T07:46:38.809090+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-14T01:59:49.798730+00:00",
+      "updatedAt": "2026-10-14T07:46:38.853373+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-14T01:59:50.895514+00:00",
+    "asOf": "2026-10-14T07:46:39.568551+00:00",
     "aggregateScore": 61.1,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
@@ -11198,7 +11198,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-13T20:15:01+00:00",
+      "updatedAt": "2026-10-14T07:31:31+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
