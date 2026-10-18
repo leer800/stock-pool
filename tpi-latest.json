@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T06:01:59.522473+00:00",
+  "asOf": "2026-10-18T11:21:07.837275+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,38 +199,38 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 8,
-        "softening": 0,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
-          "title": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG5sVGFVMjd0eGhSQkRuYlc3SDYzQmtmYzh4TlJmdmMyYkFMU0JCUGt4bFlaaUJSa2ljTThuUGNnMnlqLWZ4dTZuaW1TOUxIZlZ4UlRzNWdYZV9SNV9ReFZGa21HbUVmdVF4YjF6cjhJa0xvRERHOVJ4WnZfYW44ZE1HS2ZvWXpIMmRqckNqNzE?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-10-17T02:38:00+00:00",
+          "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
+          "source": "NPR",
+          "publishedAt": "2026-08-19T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Trump Pauses 50 Percent Tariffs on Canada and Claims Deal Is Near - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
+          "source": "The New York Times",
+          "publishedAt": "2026-08-18T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Trump tariffs fallout: US food prices unchanged in September but up 3.9% since April 2025 - Undercurrent News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+          "source": "Undercurrent News",
+          "publishedAt": "2026-08-11T07:00:00+00:00",
           "phase": "escalation"
         },
         {
-          "title": "Trump Waives Russia Sanctions That Threatened 100% Tariffs On India - NDTV",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQcXBvU1Y5NlRKWU5ueFo4RGZYLURMRG1wb3FESTZkZXpSQlZlSWl3U19CbWplYkE2RHFQU1k0WGdWTHdaUjA2UGQtdzFOb09mTUNiQlZKTHd4R0x5OE82OW5MMlJHcDVYejFFMm9OcUgzZW5fZk5fNThKS2w5cG5tOUxZb0MwandzTDFLZXhHRVllMWJPanYzQ0ctSnhLZkExa2tCNkxlXy1FZkRtVmlvWHZmS3Z6Undnbm1NUVdYX3FKU1h2cHo5YmJoWHlISFNKbG9pWlVpeEpvTU1kRVZrXzNnblRPbEtPLTZTTDUxcnJ2TGFKVDVjMHR30gGCAkFVX3lxTFAtS1NUUzRQcUg3MnF6bGpqUnpyRlZsTHBRLUpEXzd6STNoYXB3clIxSVNscTRtbXM2VjdkTmNrdV9mRFlFNTFueUM0dTc3bFZHU09pWUNWYzJOWEVld1ZJeF9TanFxRGR4MWt1eW80cEFHTkYyVkZQdmRXaXNWQVliTHlDMWdFT0ptZmlGMFVBWkNteUdNeV9KSnE4MGZ3cUxfNjd1cmJrRGNTLWRRUDdfRTZMZ3N0M3NzcmhwTEJsUjRrVTRrRjNnc0tTM1QxOU5wRUJUc3ZwX29uNEZ0QlJPakJMcUNvRGllU1Z0ejBaaTN5dW1VY0h1MGhnU19aTi1NQQ?oc=5",
-          "source": "NDTV",
-          "publishedAt": "2026-10-17T01:44:03+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Trump waives sanction threat over Russian oil purchases - The Hindu",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEJCSWVBNk5fUVR0NVJDTVNSOG1TYUVWWW9WWTVUVC1OUDBUbGdoZGR0amxSUXozZHQtZHNVZzVmSDJDT3ZoZXB2OEFKbHVxbUl4TmlLQXVVQzhabmptSHk0d1BIcW05SHJtY0pvTmU2V3FUM29WbVlYQ05TTkR4ajVQa2NKXy1ycWhBMlpVdjY2bTZMeFRrVGFaUGgzSDhRQWRxQzFXQmJTSXlSTHE3MDhVLUdXX0dvZTF6TzB4UGgzQXN0YXI2cUVSSmM5djBHWUHSAdgBQVVfeXFMTWhOZUN6QUQ5TC1ESmpjVTdQWE1wTVhQeHZxLWJiMXo2azV6d1Z1OTVQQ19TZjcxQ1lpVXVyS0I5cDZOZTlxNWdEN3JxZlBQdDl5RGRqNkEwV3lVU0dhalpsa05EWDE1VGY5U2ZnbW0zT2Nhdjh4anVoRHhISTRuYU1hb1pxQW4yczlUNTNLQUJGdjZrNzdUaEdzWnlwRjV4TnNfTDItWHRBWkJRTXpHelhHd0xFYVVrcTNsZ1M4QVluOWtocFNDLW5BVDhxR2tBY29uUEctUm5E?oc=5",
-          "source": "The Hindu",
-          "publishedAt": "2026-10-17T02:00:15+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Trump Waives New Russia Sanctions One Week After Diesel Deal - Newsweek",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGt0d3M4MURsZ1h0UHVwTzdJQmY0dEJNMDJwUU5obEJKdEwwMWFLY1kwMW1PZHljRzQwd3VsVl9fRjJ2N2RVSW9vVHV2MkdVYXVMcFBUZzlzdlJGS1QyYVk0Nm1Gd0dhNkYtU1hHS1lLQVl0bUdvLVZyLVo4MzA1aW1WSWE3UjAyX0h3Q0k0U1lQVnlTa2phV1R3?oc=5",
-          "source": "Newsweek",
-          "publishedAt": "2026-10-17T02:44:00+00:00",
+          "title": "Cambridge business says tariff delay brings relief but 'durable agreement' still needed - CBC",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUZheENzaHpYWFdrblV4Ymx2elkzTVpVU2V1X3VFeWhoZzJuQXRVVDBMWjlkMVZGQnVZOEdndHJ5MUxzWHdHZVdjWnZaaEJJYk5JQmZtcEJhcUdqSW94MmZZTzZuY29rZ3RkOXA1MGxlTThCQk1GOU9XZDh5Y3lXQV8zX3BPSUgtZ0Z4bzBXcXVMbkx5M1FpWUdzeHNTNzhIa2R3TjdMSFJaUGxBNTBPd1BpdEswWm5qUHFrNW1hcDEwdXFyS1B2RUlJaw?oc=5",
+          "source": "CBC",
+          "publishedAt": "2026-08-19T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:01:58.232596+00:00",
+      "updatedAt": "2026-10-18T11:21:06.563667+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
+        "escalation": 3,
         "softening": 1,
         "execution": 0,
-        "monitoring": 5
+        "monitoring": 4
       },
       "items": [
         {
@@ -265,18 +265,18 @@
           "phase": "softening"
         },
         {
+          "title": "Trump eases 100% tariff threat over Russia: Could a US-India trade deal be closer now? - The Indian Express",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOb0JDSi1wNEdVMVloUlNCSzE3UUtvbXJVVkowR2djWlZoZFUxWmRyR19jNWswUVpwWVBFYjBSMnBIWC1QZkdzalFCaEM4Vl9tb0xCd0UyeXg3WDJ0MkNXdHdWTHpuREhia29oNUV1c0Z5d0JtT3A3Y3pDcDFjaDBUM0RnN2d0M1lXMHVMNEZGSXpjOTNYa0UtS3UzT3hGTTdZc09IRWY5OFZkbGRNWjZ0NWkxRTZ1bnVDRnJPS0FQZGF6bUprNm1SZXBzWU9qT1BLZXhSRGZWa9IB3gFBVV95cUxOWjk0SzR1QmRtbzNOS1Z5MjlVN2Y3cWEwSThQUEN1MDQ1WlpXVTJMYXhCZ3VWajdnbTBkOS11UF9UWmFXRGxDZkZodGM0LVpNSHlKTF9vZEdzeXZjanlTdG51VUJaM0xVcUhtbHA4NmIyckc4ZUNyaDZBLURIT2NSd0ZyRjJzLWFyRy1WWGRTNkZSajFMdHdEWGcwTEFzbF9mbnZGSzdHSko4SWx6RWwyajJ1S1dMa3BoWjhsXy1Ba216TEM2c19aRmllY3dpV0VyWjFyczBJVEtMcnVZM3c?oc=5",
+          "source": "The Indian Express",
+          "publishedAt": "2026-10-17T23:11:22+00:00",
+          "phase": "escalation"
+        },
+        {
           "title": "The BR International Trade Report: October 2026 - Blank Rome LLP",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS183cjhyTUJvd3lLeVdCenNra0lRdHpJb3FYYlJsdU4zRmRaLW13QmJFdE9UOWtfUnpNQTFmNkNUWUhBZkx5aTZPWDZldzB1R2VlOW93bnVFeUsyc3V4TTNfYXdzN1RUbTQyZ0dlQnRDQmRwWE5zOXVwOXEzYWRVTks1dTlXUWIyTkpsa2ZIV0tCdEE?oc=5",
           "source": "Blank Rome LLP",
           "publishedAt": "2026-10-07T07:00:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Trump’s Russia sanctions pause: How it eases tariff threat on India, lifts trade deal hopes - The Indian Express",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWkJhNXMwNldSdG5aNVNMakNNNURqUHBFeXpLUm1SWHdzVGNyeW1Pb1ZDdWhJaGFNVjFoM2xpVV9PV3FkZm8zUlJqTDFBblVsak9Gc21MWUtxeGJQTU5HdDlxaUJVc3JpVlBvRTlsaGZpaTJLNS1wajhBeEhiTFZ4UVpUTFZwYkVkM3dVNDBwNWdSQjhPamh5UGNCYWl3am95MzZoTzcweVlkSE83WXQybm9MZDhLNlFMeDNqUUhBRllBQnJQaGfSAcwBQVVfeXFMTmZvZldyTWl2MGdHVlFmcGpYSWVyTjFiR29FMmhGcHY0aU9mS0l3dEt0dzNXSDI2dk9ScTQxR19POEhDMXZMZ3gxNVZzTjc3QU90X3A4d080ZlppRVNpb0tMRGVGMWRhblJLV1pPeUcxUkVQdG1kN3ctUmRNY3B2YmhPTWlhOUJPLUk2OEdCcDlHWGR4REx6b3R2Ynh0WVdGSG9Od1dWS2hyMXEwWjRxV2VtUlBnQ3lLRDhVemNibWhfblFfeWU3bVVpWDJ2?oc=5",
-          "source": "The Indian Express",
-          "publishedAt": "2026-10-17T05:56:20+00:00",
-          "phase": "escalation"
         },
         {
           "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:01:57.884087+00:00",
+      "updatedAt": "2026-10-18T11:21:06.387645+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:01:57.994357+00:00",
+      "updatedAt": "2026-10-18T11:21:06.492612+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T06:01:58.186259+00:00",
+      "updatedAt": "2026-10-18T11:21:06.543327+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-18T06:01:59.520650+00:00",
-    "aggregateScore": 75.1,
+    "asOf": "2026-10-18T11:21:07.835014+00:00",
+    "aggregateScore": 75.0,
     "aggregateLabel": "极高",
     "highRiskCount": 5,
     "coverage": {
@@ -9513,7 +9513,7 @@
             "volume": 22481800
           }
         ],
-        "score": 69.4,
+        "score": 68.7,
         "zone": "crowded",
         "label": "一致预期拥挤",
         "evidence": [
@@ -9522,19 +9522,19 @@
           "股价走弱但评级尚未松动"
         ],
         "metrics": {
-          "bullishShare": 80.0,
-          "bullishShare3mAgo": 80.4,
-          "targetMean": 636.21,
-          "targetMedian": 635.5,
-          "targetLow": 365.0,
+          "bullishShare": 80.4,
+          "bullishShare3mAgo": 80.8,
+          "targetMean": 627.65,
+          "targetMedian": 631.0,
+          "targetLow": 200.0,
           "targetHigh": 1250.0,
-          "targetUpside": 20.3,
+          "targetUpside": 18.7,
           "return5d": -13.0,
           "return20d": -5.5,
           "drawdown3m": -18.6,
           "targetRaises45d": 4,
           "targetCuts45d": 0,
-          "analystCount": 50,
+          "analystCount": 51,
           "epsChange30d": 0.4,
           "epsChange60d": 0.4,
           "revenueChange30d": 0.6,
@@ -9606,9 +9606,9 @@
               "eps": {
                 "current": 7.5868,
                 "value30dAgo": 7.57578,
-                "value60dAgo": 7.56725,
+                "value60dAgo": 7.55071,
                 "change30d": 0.1,
-                "change60d": 0.3
+                "change60d": 0.5
               },
               "revenue": {
                 "current": 50948325430.0,
@@ -9641,7 +9641,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 22.0,
+        "scoreChange7d": 21.3,
         "historyStatus": {
           "points": 27,
           "firstDate": "2026-08-04",
