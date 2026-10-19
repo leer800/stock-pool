@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-18T23:20:59.455097+00:00",
+  "asOf": "2026-10-19T01:24:19.623490+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,38 +199,38 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 8,
-        "softening": 0,
+        "escalation": 6,
+        "softening": 2,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
-          "title": "Trump waives tariffs on largest buyers of Russian oil, days before Lindsey Graham-backed law was set to take effect - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTG5sVGFVMjd0eGhSQkRuYlc3SDYzQmtmYzh4TlJmdmMyYkFMU0JCUGt4bFlaaUJSa2ljTThuUGNnMnlqLWZ4dTZuaW1TOUxIZlZ4UlRzNWdYZV9SNV9ReFZGa21HbUVmdVF4YjF6cjhJa0xvRERHOVJ4WnZfYW44ZE1HS2ZvWXpIMmRqckNqNzE?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-10-17T02:38:00+00:00",
+          "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
+          "source": "NPR",
+          "publishedAt": "2026-08-19T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
+          "source": "The New York Times",
+          "publishedAt": "2026-08-18T07:00:00+00:00",
           "phase": "escalation"
         },
         {
-          "title": "Trump waives many Russian sanctions, tariffs under new law backed by Lindsey Graham - Fox Business",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM2hWeUNPZ1JiQ29zcmlfTWhvYjY0RlZxak9qRXZ1ZXlIWDdmNlpCQmdvOHBVYmZwd3BOdnZwTU5IOUJGNDh5YU9oam1qckdOQTQzU0FCd0gwLWRabGJXUFBJS3JrdmNyaXJaUjRnSDlhSkxUaGg4aGcxbTN2WFpkS2dCczJZQS05ZGcxY2V1V1ZnRkNiZTJiYmxZYkFYSE1kWlVfRUlXQWk3d1VQ0gGyAUFVX3lxTE9kaWgybEFONW1xaFhJYXpXeHJNUi1xOTNtcjctajRUbGFJMWdpcmJOdnVPbjc0aGEyenU3NFJqc2dlZ2FhNWtVTlZiQUNicWR5YTdiS3hhNlBiSWUxOVZVMl96V25walRLamRBSkJvMllrWkFGQ0YwODQyMEtEcGlDMWxJUFdBOTctRGlRalRGQnlSZ1o3Zl9GbmxCUVhMMGxpWXoxdk1NVFlKbW9ubVlKdEE?oc=5",
-          "source": "Fox Business",
-          "publishedAt": "2026-10-17T02:17:00+00:00",
+          "title": "Trump tariffs fallout: US food prices unchanged in September but up 3.9% since April 2025 - Undercurrent News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+          "source": "Undercurrent News",
+          "publishedAt": "2026-08-11T07:00:00+00:00",
           "phase": "escalation"
         },
         {
-          "title": "US commerce secretary’s resistance to cutting tariffs stalls trade talks with Mexico - Mexico News Daily",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWxtbzQtSVpIZUsybUVDbmhzMWV4eHB0UVpva2luZ3FmR2hIV29OWHV3TW92WldPeFpkX2g0UzUyc0V6Tm9QVW12TllKRG03ZlAzYlpkWlczU2djdEs0dUdqYS00X1ktS24xQjd2eFM1VnVweHN5eWs1WnNCQmJpS2NLdGVnOGtOaGZDazZxVDdJX2daXzZhbHlMZEVaOWRBUnZFZS02YkdDdl8tZ2c1S19Idw?oc=5",
-          "source": "Mexico News Daily",
-          "publishedAt": "2026-10-16T19:50:10+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Trump’s 100% Russian oil tariff U-turn has a catch India can’t ignore - The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNUE1WOTcydDNtY1hEVG9RNVA0cnNLZ2lJNHhlWWdSQ29XaGdqRzlCTWN4SG5VTDkzQlFET2Q2ZUcxRXRrSldGRmk3b0dYb0U2YkczcEp6MTlPZXA4N3RFaVRpbm5zOXpDTV92NDk5blk1VGhSVVZLdGhqTHlhSXNhTkFuUU5adFpyZWNFYUdhdzA1SkFQa0RCSS04R3NjdV9uczg2ODdJY0xyYnlLQXNvOGN0OEhnc1NKNDdyNjRnakVCblRaTzY1eERyWDA1X0dCemYzdHpxUDR3OHJpZWdfSnBOY2lMRExRYkp0QWtVTDJ6TzVoY2ZGbl9lLTVHZDNEcUhfS2dVc3JfTmJJdHphOTlXQ3VsQdIBmwJBVV95cUxNcm80SzlLa2Ztdk16MUhWcFVwelZZTEUzUnJwYU5QVFRrdmRhWUFEc0JXRE1OTHVZdEZXcUlMSkEyd3dyYlhabXVfNGlIN1h3S3RnMUI0YTRDRjB1M3dlTmpOREZfbl85YnRaajM2R19SVFp0ZGI2Q3hZRkd4R1UwaXpQRnFzU0NfdVVxM2c0dlhweU15ZFN1dUNBeTlZUkhQSFNEekZVdjV4UDJIYTE5VENKSnBmVnFzclVQR2FqcHlHaTFhclBxSURfT0FPcndVSVBsZWNCYXVqVFhZRTY1UDBHVldiOVhmNE1BQTZsdmJWYmE4MkRVbEU5cE84LVNHbjE0OEdxN0x5bm84SDFoRVpFdkdMMVJRSk9n?oc=5",
-          "source": "The Economic Times",
-          "publishedAt": "2026-10-17T05:42:47+00:00",
+          "title": "Cambridge business says tariff delay brings relief but 'durable agreement' still needed - CBC",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUZheENzaHpYWFdrblV4Ymx2elkzTVpVU2V1X3VFeWhoZzJuQXRVVDBMWjlkMVZGQnVZOEdndHJ5MUxzWHdHZVdjWnZaaEJJYk5JQmZtcEJhcUdqSW94MmZZTzZuY29rZ3RkOXA1MGxlTThCQk1GOU9XZDh5Y3lXQV8zX3BPSUgtZ0Z4bzBXcXVMbkx5M1FpWUdzeHNTNzhIa2R3TjdMSFJaUGxBNTBPd1BpdEswWm5qUHFrNW1hcDEwdXFyS1B2RUlJaw?oc=5",
+          "source": "CBC",
+          "publishedAt": "2026-08-19T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:20:58.499438+00:00",
+      "updatedAt": "2026-10-19T01:24:18.138824+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:20:58.358322+00:00",
+      "updatedAt": "2026-10-19T01:24:18.639282+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:20:58.372345+00:00",
+      "updatedAt": "2026-10-19T01:24:18.212981+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-18T23:20:58.400421+00:00",
+      "updatedAt": "2026-10-19T01:24:18.175943+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-18T23:20:59.453860+00:00",
+    "asOf": "2026-10-19T01:24:19.621247+00:00",
     "aggregateScore": 74.7,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1850,7 +1850,7 @@
           "epsChange30d": 0.1,
           "epsChange60d": 2.6,
           "revenueChange30d": 0.1,
-          "revenueChange60d": 16.5
+          "revenueChange60d": 16.4
         },
         "expectations": {
           "primaryPeriod": "0q",
@@ -1867,9 +1867,9 @@
             "revenue": {
               "current": 3151989910.0,
               "value30dAgo": 3149640870.0,
-              "value60dAgo": 2704955330.0,
+              "value60dAgo": 2706834300.0,
               "change30d": 0.1,
-              "change60d": 16.5,
+              "change60d": 16.4,
               "historyStatus": "ready"
             }
           },
@@ -1887,9 +1887,9 @@
               "revenue": {
                 "current": 3151989910.0,
                 "value30dAgo": 3149640870.0,
-                "value60dAgo": 2704955330.0,
+                "value60dAgo": 2706834300.0,
                 "change30d": 0.1,
-                "change60d": 16.5,
+                "change60d": 16.4,
                 "historyStatus": "ready"
               }
             },
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 29.6,
+        "scoreChange7d": 24.6,
         "historyStatus": {
           "points": 27,
           "firstDate": "2026-08-04",
@@ -3886,7 +3886,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 14.7,
+        "scoreChange7d": 10.4,
         "historyStatus": {
           "points": 27,
           "firstDate": "2026-08-04",
@@ -5797,7 +5797,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 3.2,
+        "scoreChange7d": 2.4,
         "historyStatus": {
           "points": 27,
           "firstDate": "2026-08-04",
@@ -7640,7 +7640,7 @@
             "revenue": {
               "current": 108976837760.0,
               "value30dAgo": 108972821930.0,
-              "value60dAgo": 91956584330.0,
+              "value60dAgo": 91936931570.0,
               "change30d": 0.0,
               "change60d": 18.5,
               "historyStatus": "ready"
@@ -7660,7 +7660,7 @@
               "revenue": {
                 "current": 108976837760.0,
                 "value30dAgo": 108972821930.0,
-                "value60dAgo": 91956584330.0,
+                "value60dAgo": 91936931570.0,
                 "change30d": 0.0,
                 "change60d": 18.5,
                 "historyStatus": "ready"
@@ -7726,7 +7726,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.2,
+        "scoreChange7d": 2.0,
         "historyStatus": {
           "points": 27,
           "firstDate": "2026-08-04",
@@ -8144,8 +8144,8 @@
           "breakDate": "2026-10-16",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 2,
-          "label": "股价已先跌2天，机构尚未下调"
+          "waitingDays": 3,
+          "label": "股价已先跌3天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -9639,7 +9639,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 21.3,
+        "scoreChange7d": 15.9,
         "historyStatus": {
           "points": 27,
           "firstDate": "2026-08-04",
@@ -10077,8 +10077,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 4,
-          "label": "股价已先跌4天，机构尚未下调"
+          "waitingDays": 5,
+          "label": "股价已先跌5天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -11177,7 +11177,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 41.2,
+        "scoreChange7d": 34.7,
         "historyStatus": {
           "points": 27,
           "firstDate": "2026-08-04",
