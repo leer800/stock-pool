@@ -45,3 +45,4 @@ date,pool_size,quotes_requested,quotes_received,missing_quotes,extra_quotes,usab
 2026-10-14,137,137,137,,11,148,165,34,59,10,ISRG;ROK;AMD;NTAP;TER;PSTG;CAT;NEE;CEG;KLAC,reports/discovery-2026-10-14.md
 2026-10-15,137,137,137,,11,148,158,32,59,7,ISRG;ROK;NTAP;TER;AMD;PSTG;KLAC,reports/discovery-2026-10-15.md
 2026-10-16,137,137,137,,12,149,165,36,61,7,ISRG;ROK;TER;AMD;NTAP;PSTG;KLAC,reports/discovery-2026-10-16.md
+2026-10-20,137,137,137,,11,148,164,35,56,6,AMD;NTAP;ISRG;ROK;PSTG;TER,reports/discovery-2026-10-20.md
