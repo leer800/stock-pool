@@ -1,14 +1,14 @@
 {
   "version": 1,
   "status": "success",
-  "attemptedAt": "2026-10-19T16:26:10.731796+00:00",
+  "attemptedAt": "2026-10-20T14:16:48.794349+00:00",
   "attemptedDate": "2026-10-20",
   "dataDate": "2026-10-20",
   "message": "主动发现数据已更新。",
   "counts": {
-    "signals": 164,
-    "papers": 35,
-    "candidates": 56
+    "signals": 178,
+    "papers": 40,
+    "candidates": 61
   },
   "warnings": [
     "extra quote PSTG: HTTPError: HTTP Error 404: "
