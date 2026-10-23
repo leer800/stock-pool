@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22T22:26:52.045347+00:00",
+  "asOf": "2026-10-23T01:37:23.026812+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-22T22:26:50.906903+00:00",
+      "updatedAt": "2026-10-23T01:37:22.403466+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-22T22:26:50.866581+00:00",
+      "updatedAt": "2026-10-23T01:37:22.129565+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-22T22:26:50.875992+00:00",
+      "updatedAt": "2026-10-23T01:37:22.287325+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -362,17 +362,10 @@
       },
       "items": [
         {
-          "title": "Opinion | Hollywood loves to hate Trump. But it loves money more. - The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRTJUSXZOeDdlTXExLXEzSHplQUVsTlY4Nkp0TFNFTjRPc2NqT3NGb0pkZ3FmM3RxS0FaR0Q2eGJyLVRFN3hvTGFsQkFUNmF5c056QWdmYmlrZFg5WU5LSkM4aWt3ak1FVFBFQ0xwT3ZPeUlZcEFGbTVmTzBxZjhQRHlaZ3lDWlNFMFd4TTRpVHR0d2VBUGF1V0NuMnNsWXJmWHFBM0c4UEh5QjZURU5WUTNkLVdudw?oc=5",
-          "source": "The Washington Post",
-          "publishedAt": "2026-09-05T07:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Trump Trade War With Canada Puts Film, TV Spending Rules in Crosshairs - The Hollywood Reporter",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWRnSVRlYmo1Unc0VVUtVmlhRjBJV3NoYTZwVTlXWWw3WkpDZXdBQXI1aEp5Um9US011QkRVRDBhWEZzNS1aQ1FndzQ2NmlQZ0FWMXlMYmlWM2JHWldFZjBET3pNeGJYYXprd2RHYWkwZXIzRFloQUN0STB6Q0VUVks4Um1tczdXY1dlNnlhbjZjRzNJbEE?oc=5",
-          "source": "The Hollywood Reporter",
-          "publishedAt": "2026-08-24T07:00:00+00:00",
+          "title": "Trump Tax Law 2025: What Changed and How It Affects Your Taxes - Kiplinger",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lMWNMMWpEVkt4bFBZdUZCNDNUOWg3UndTbnZzOElhN3hxS3B6UXEtUktIb2FLa3daSUxlNGE5QWRpcFlBZ1Nwc3pINERwSEd0cEZsSWpyaUZadnp4cHZRQkVVd0M?oc=5",
+          "source": "Kiplinger",
+          "publishedAt": "2026-05-24T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
@@ -388,6 +381,13 @@
           "source": "PBS",
           "publishedAt": "2026-03-18T07:00:00+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
+          "source": "Center for American Progress",
+          "publishedAt": "2026-02-17T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-22T22:26:50.976035+00:00",
+      "updatedAt": "2026-10-23T01:37:22.061688+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-22T22:26:52.044154+00:00",
+    "asOf": "2026-10-23T01:37:23.025669+00:00",
     "aggregateScore": 69.5,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1821,7 +1821,7 @@
             "price": 856.49,
             "priceIndex": 80.49,
             "sectorIndex": 78.62,
-            "volume": 31917837
+            "volume": 31887400
           }
         ],
         "score": 82.4,
@@ -1850,7 +1850,7 @@
           "epsChange30d": 7.3,
           "epsChange60d": 9.7,
           "revenueChange30d": 21.6,
-          "revenueChange60d": 21.5
+          "revenueChange60d": 21.6
         },
         "expectations": {
           "primaryPeriod": "0q",
@@ -1867,9 +1867,9 @@
             "revenue": {
               "current": 61751761080.0,
               "value30dAgo": 50784289620.0,
-              "value60dAgo": 50805073160.0,
+              "value60dAgo": 50784289620.0,
               "change30d": 21.6,
-              "change60d": 21.5,
+              "change60d": 21.6,
               "historyStatus": "ready"
             }
           },
@@ -1887,9 +1887,9 @@
               "revenue": {
                 "current": 61751761080.0,
                 "value30dAgo": 50784289620.0,
-                "value60dAgo": 50805073160.0,
+                "value60dAgo": 50784289620.0,
                 "change30d": 21.6,
-                "change60d": 21.5,
+                "change60d": 21.6,
                 "historyStatus": "ready"
               }
             },
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -5.7,
+        "scoreChange7d": -4.4,
         "historyStatus": {
           "points": 31,
           "firstDate": "2026-08-04",
@@ -3810,7 +3810,7 @@
             "price": 223.47,
             "priceIndex": 76.85,
             "sectorIndex": 78.62,
-            "volume": 24856710
+            "volume": 24837000
           }
         ],
         "score": 81.6,
@@ -3855,7 +3855,7 @@
             "revenue": {
               "current": 3151995970.0,
               "value30dAgo": 3149640870.0,
-              "value60dAgo": 2706834300.0,
+              "value60dAgo": 2708432640.0,
               "change30d": 0.1,
               "change60d": 16.4,
               "historyStatus": "ready"
@@ -3875,7 +3875,7 @@
               "revenue": {
                 "current": 3151995970.0,
                 "value30dAgo": 3149640870.0,
-                "value60dAgo": 2706834300.0,
+                "value60dAgo": 2708432640.0,
                 "change30d": 0.1,
                 "change60d": 16.4,
                 "historyStatus": "ready"
@@ -5778,7 +5778,7 @@
             "price": 323.24,
             "priceIndex": 67.12,
             "sectorIndex": 78.62,
-            "volume": 28083325
+            "volume": 27823100
           }
         ],
         "score": 72.8,
@@ -5822,7 +5822,7 @@
             "revenue": {
               "current": 34893979450.0,
               "value30dAgo": 35000489240.0,
-              "value60dAgo": 29435187950.0,
+              "value60dAgo": 29434507200.0,
               "change30d": -0.3,
               "change60d": 18.5,
               "historyStatus": "ready"
@@ -5842,7 +5842,7 @@
               "revenue": {
                 "current": 34893979450.0,
                 "value30dAgo": 35000489240.0,
-                "value60dAgo": 29435187950.0,
+                "value60dAgo": 29434507200.0,
                 "change30d": -0.3,
                 "change60d": 18.5,
                 "historyStatus": "ready"
@@ -5908,7 +5908,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -0.4,
+        "scoreChange7d": -0.3,
         "historyStatus": {
           "points": 31,
           "firstDate": "2026-08-04",
@@ -6382,8 +6382,8 @@
           "breakDate": "2026-10-16",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 6,
-          "label": "股价已先跌6天，机构尚未下调"
+          "waitingDays": 7,
+          "label": "股价已先跌7天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -7746,7 +7746,7 @@
             "price": 507.93,
             "priceIndex": 97.39,
             "sectorIndex": 78.62,
-            "volume": 27926275
+            "volume": 27910400
           }
         ],
         "score": 67.4,
@@ -7791,7 +7791,7 @@
             "revenue": {
               "current": 13077889730.0,
               "value30dAgo": 12992598210.0,
-              "value60dAgo": 12995229740.0,
+              "value60dAgo": 12995967440.0,
               "change30d": 0.7,
               "change60d": 0.6,
               "historyStatus": "ready"
@@ -7811,7 +7811,7 @@
               "revenue": {
                 "current": 13077889730.0,
                 "value30dAgo": 12992598210.0,
-                "value60dAgo": 12995229740.0,
+                "value60dAgo": 12995967440.0,
                 "change30d": 0.7,
                 "change60d": 0.6,
                 "historyStatus": "ready"
@@ -7877,7 +7877,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -0.6,
+        "scoreChange7d": 2.4,
         "historyStatus": {
           "points": 31,
           "firstDate": "2026-08-04",
@@ -9732,7 +9732,7 @@
             "price": 212.21,
             "priceIndex": 95.24,
             "sectorIndex": 78.62,
-            "volume": 124949554
+            "volume": 124816000
           }
         ],
         "score": 65.9,
@@ -9776,7 +9776,7 @@
             "revenue": {
               "current": 108976833310.0,
               "value30dAgo": 108972821930.0,
-              "value60dAgo": 92072420560.0,
+              "value60dAgo": 92069370090.0,
               "change30d": 0.0,
               "change60d": 18.4,
               "historyStatus": "ready"
@@ -9796,7 +9796,7 @@
               "revenue": {
                 "current": 108976833310.0,
                 "value30dAgo": 108972821930.0,
-                "value60dAgo": 92072420560.0,
+                "value60dAgo": 92069370090.0,
                 "change30d": 0.0,
                 "change60d": 18.4,
                 "historyStatus": "ready"
@@ -9862,7 +9862,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.7,
+        "scoreChange7d": -2.7,
         "historyStatus": {
           "points": 31,
           "firstDate": "2026-08-04",
@@ -10336,8 +10336,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 8,
-          "label": "股价已先跌8天，机构尚未下调"
+          "waitingDays": 9,
+          "label": "股价已先跌9天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -11326,7 +11326,7 @@
             "price": 33.72,
             "priceIndex": 67.21,
             "sectorIndex": 78.62,
-            "volume": 43907625
+            "volume": 43889800
           }
         ],
         "score": 47.1,
@@ -11457,7 +11457,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -6.8,
+        "scoreChange7d": -6.9,
         "historyStatus": {
           "points": 31,
           "firstDate": "2026-08-04",
