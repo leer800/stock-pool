@@ -1,13 +1,13 @@
 {
-  "asOf": "2026-10-26T20:01:20.162379+00:00",
+  "asOf": "2026-10-26T23:56:33.918928+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
   "summary": "压力处于高位，重点观察政策是否出现延期、豁免或谈判措辞软化。",
   "index": {
-    "value": 73.9,
+    "value": 74.1,
     "zone": "high_pressure",
-    "change5d": -10.5
+    "change5d": -10.3
   },
   "drivers": [
     {
@@ -46,12 +46,12 @@
       "id": "move",
       "name": "债券波动率",
       "weight": 0.15,
-      "pressureScore": 83.9,
-      "value": "102.25",
-      "changeLabel": "近5日 +0.95",
+      "pressureScore": 84.2,
+      "value": "102.19",
+      "changeLabel": "近5日 +0.89",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-26T19:32:30+00:00",
+      "updatedAt": "2026-10-26T20:17:30+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -63,11 +63,11 @@
       "name": "标普500",
       "weight": 0.2,
       "pressureScore": 58.5,
-      "value": "7,676.9",
+      "value": "7,676.8",
       "changeLabel": "近5日 -0.18%",
       "direction": "下跌增加压力",
       "interpretation": "股市回撤会强化政策反馈；上涨则释放压力。",
-      "updatedAt": "2026-10-26T20:01:17+00:00",
+      "updatedAt": "2026-10-26T20:43:43+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -78,12 +78,12 @@
       "id": "vix",
       "name": "股市恐慌",
       "weight": 0.15,
-      "pressureScore": 62.7,
-      "value": "18.32",
-      "changeLabel": "近5日 -0.12",
+      "pressureScore": 63.4,
+      "value": "18.39",
+      "changeLabel": "近5日 -0.05",
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
-      "updatedAt": "2026-10-26T19:46:16+00:00",
+      "updatedAt": "2026-10-26T20:15:01+00:00",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
       "sourceName": "Yahoo Finance 市场数据",
@@ -131,7 +131,7 @@
     {
       "id": "market",
       "name": "市场与波动压力",
-      "score": 68.4,
+      "score": 68.7,
       "components": [
         "MOVE",
         "标普500",
@@ -190,7 +190,7 @@
     {
       "date": "2026-10-26",
       "label": "10.26",
-      "value": 78.4
+      "value": 78.5
     }
   ],
   "policyEvents": [
@@ -199,39 +199,39 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 6,
+        "softening": 2,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
-          "title": "EXCLUSIVE: US, Canada working on deal to ease steel, auto tariffs, sources say - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQU1JXYWUtZ2l1TGNtSDlwbkN6SkxUR1RxaWZjQnFpNk8yTzBuLTR5OEUxQ296SmZEd3dDS25tMjh1eW5hRGg4X1gtVUpVQi1UbWIyYXpJQmh6NGxpX011WWlEYWh0Z3FKRm55UUl6UnpKUTZmM3lhUElLNUVIb0tkWDBYVkI1LXI2aWxwT1Q2aUpSZjhOcUVxaTByX21WVlExQVE?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-10-26T19:33:43+00:00",
-          "phase": "softening"
-        },
-        {
-          "title": "US, Canada ‘very close’ to tariff deal: WH - New York Post",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOTF6TmFCT2QwNlpVUHJickdDVjYzSzhLQ0lsYklqRmotanJUek9XQWF4cng5Y00tUTc1X2R4cl80QmhBLXg1aDFybTV4NV92bk5oTjlJWm1yUWxacHlIOFRudmhHYU5uTXdObGc5c3dnX2ZkbF8tQ25FdExpMk9xR041TQ?oc=5",
-          "source": "New York Post",
-          "publishedAt": "2026-10-26T18:07:00+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "US-Canada tariff deal 'very close', says White House adviser ahead of midterms - The Times of India",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOaFBBeHhLZGotUkpFbzRKeFluODJsNl9pZzk4OU1feHhRLTU0LV9ReWh1YXhkMWZmNF9rZlh2ZEc3alRkUElrWU9PUjhweUNsblBLeWt6ZW80UmN6TEtSMEdYaUYtd2VPNHVyalM0UFhCbUxEVVNhLVppb3FxcEJkTzNBVHBjbF9lcWY1UXhCYUtJNUNxZDRKMUUzODMzMDg3UkVoY1BfT1p4LXdLcUlUNFBLTEpXQXg5WTFLN1phS2s1T0dRdUt5NVVjZDVxVHJhdzlnQVJtVzhRMU1MeGZJbkd4ZFRhSE8tWmpnNk0xSDV1SzZQX2ZBU0RHMEU2Nkw2UjY00gGIAkFVX3lxTE5ZSEl2YUVxSUREeWNTTkxFVC1NbFdBa3JISHdjZGpkeFlGSGEtWkpxcmo4dzBBdTZSTlNxYWdndmtnQl9tY2pWTEQ0WC02YUFjLXNvX05uZUV5OGE2M2pHemt5ZWdLcXFMc1kySHpPVFlCRko3QVY1bEtIMmNDZnJJVzFrYmFKUUhzUzVJVG5zUThKdW9OcllRTXhkNFBFNWdLSVdOOUFkb2R5cVkwRjJEQ25UVE04Wk5XU3ZCbkxPdDNyUUFCQmNSN2JsWkk2MmxHVU10M3BMY3VldTQxekF3OWYzSm1yQVdDMWFfWEVBdm83UWE0bEVsOWpyTUxYNExrQnRadDNURg?oc=5",
-          "source": "The Times of India",
-          "publishedAt": "2026-10-26T17:57:00+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "Trump adviser says Alberta referendum made it ‘essentially impossible’ to negotiate on trade deal - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQmctMTVhX3FMNl9uNWdzN2lTelFBdFk5RG41Tm9rOERaRFNUdTk0d25uT2hhY3hMcG9MSzdjaXdpQXBnSlhEUmdIVHo1RGdRM0IwekZEMTh6RjAxaWtEcVo1NzNJWnpfY3cyaDhyZzFMMm9UbkRwbVY0M1JYekNDQlY0b21IOVJZeGNaaklacFVtRlR1Q1pXVFBocFRXY2JVdDYxMVpwRDZvV2tMWmFkOHZyRmN2X2xFcWJ5cXozUEEzb3FtRzNRWm1MV0p3YlRRdUZHS0FxcUVkaVhCUXBIckZB?oc=5",
+          "title": "Trump to remove 50% tariffs on some Canadian goods. Here’s what we know - CTV News",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNXzNlTUswa1NzOHlyQ1ZMUnl3Z2hlbVQwclNoc0d2THFBZUVubmRxVFBTMUhIVkl3Y3ZET3J5bDNPSnNLN2hRdXZXZFo2UjB6NjE3UU9YUHV6V254aWhPcjNWNlAtSjFja0p4dFRMY1k4UFNCOHprM3hEa09rb3FuamE3aDBsaU5IZW1VdGxXU3RoeXJvUjBTbVlHQmRiSVNCV2Y3R0lVNXpaMmp6MG9xRFpxMlhsUEdLVE1ULW1B?oc=5",
           "source": "CTV News",
-          "publishedAt": "2026-10-25T21:05:52+00:00",
+          "publishedAt": "2026-10-23T15:14:36+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "GOP senator announces tariff exemptions, as Trump says Canada's working hard to make a deal - National Post",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkxJMXFoWDBBaDV2RW8ybXI2ZHljMHpqU0lHRk1obGR1LVcxcmIzNEwtemJoNjliQUJMRWRJS2hUMXFzcDRVZDJWZlhIY3J6MWdDZnZqcVBySDZiQ1UzM2Z5QzB0di1XWkQteGZuSTVhMzFKQjgzcTYyZkNyM244Y1R1dlZ5MXBVZ0hndU1vQk9teHkxbFRGLVRlWQ?oc=5",
+          "source": "National Post",
+          "publishedAt": "2026-10-23T20:47:06+00:00",
           "phase": "softening"
+        },
+        {
+          "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
+          "source": "NPR",
+          "publishedAt": "2026-08-19T07:00:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Tariffs on Hold as Trump Claims Deal With Canada Is Near - The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDQ4MzBmeUdBV0VLNnNTVXFKU3NkUVowYXZxVE5nNTJiYU9YT1dWOWRhdEg3ZG5NelNqSW55clZsb0lXbVdvOFQyVDdodGEzandYQ1BDUGZTbmc1eUU4c3pNUGlMUFc1b2Z1d0xQdGpEVHhzQnhNa1ZUdGNJZFREdVpyZmpkUQ?oc=5",
+          "source": "The New York Times",
+          "publishedAt": "2026-08-18T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-26T20:01:19.535109+00:00",
+      "updatedAt": "2026-10-26T23:56:32.533494+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,15 +251,15 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
-        "softening": 1,
+        "escalation": 2,
+        "softening": 0,
         "execution": 0,
-        "monitoring": 4
+        "monitoring": 6
       },
       "items": [
         {
           "title": "Treasury proposes rule to curb high-tech investments in China and other adversaries - PBS",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOblY5b1hYT1VJOVNzeGVLb2hJM1Nka3E4N2hqX3htck9FWjJWMTB0MDRPZWlnT1hjUHFmdFRUVXltR3Uyd3ZreUJ4VjlNMjZxNlFkbGlCNU9qeHNiMW1BaXVub0NyUFJjME12OHVHRlpkS2ItVmVKdE9JalVnWk12NktJRkFuMHVVdlBRSHNrOHVKOEpQa0F1dllLT1Y1Sm5nZVBKS1I3XzZmdzNiVWJxbnJlWXRNcVFJdkxrMnNzUU9EQ2fSAcMBQVVfeXFMTm5WOW9YWE9VSTlTc3hlS29oSTNTZGtxODdoal94bXJPRVoyVjEwdDA0T2VpZ09YY1BxZnRUVFV5bUd1Mnd2a3lCeFY5TTI2cTZRZGxpQjVPanhzYjFtQWl1bm9DclBSYzBNdjh1R0ZaZEtiLVZlSnRPSWpVZ1pNdjZLSUZBbjB1VXZQUUhzazh1SjhKUGtBdXZZS09WNUpuZ2VQSktSN182ZnczYlVicW5yZVl0TXFRSXZMazJzc1FPRENn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNazgwM2ZwNXBFa1diSlFMSzdhUmRpdVVkUlRsOWtZeUpiYWllX2ZudG1tZzU0OUNXZFE3azdqMlhYX0Fuc09YXzlBYUhVWmxod2ZfblNBLW5vOWFFXzlGbmZ4NEdWZGpMd2dWeXpvdzIzRF9UNHRXMU8ybnpXVVNTZFlfUk9hSUVDX3QtUzZGQ1YydXM3MG9Xdzl0QTVBX2FJSEZYSVFJSUhsT3lRMGtwb0FPZVZhVkliU0hRRUZB0gHDAUFVX3lxTE5uVjlvWFhPVUk5U3N4ZUtvaEkzU2RrcTg3aGpfeG1yT0VaMlYxMHQwNE9laWdPWGNQcWZ0VFRVeW1HdTJ3dmt5QnhWOU0yNnE2UWRsaUI1T2p4c2IxbUFpdW5vQ3JQUmMwTXY4dUdGWmRLYi1WZUp0T0lqVWdaTXY2S0lGQW4wdVV2UFFIc2s4dUo4SlBrQXV2WUtPVjVKbmdlUEpLUjdfNmZ3M2JVYnFucmVZdE1xUUl2TGsyc3NRT0RDZw?oc=5",
           "source": "PBS",
           "publishedAt": "2026-10-23T23:19:32+00:00",
           "phase": "monitoring"
@@ -279,10 +279,10 @@
           "phase": "monitoring"
         },
         {
-          "title": "US Market Open: Trump waived key Russian sanctions; US equity futures set to open firmer - Newsquawk",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdG5SY1dWNmR3VGFRS2ctV0YxQ0ljR1FUZE5CQXVTSnJfb3FmLTlnNF9YSDV2UkpRdVRDakZXd0d6bDhxY1BLWEdCeWFPQjV3M3lmX3VPdFRGMWNnNWZieVo2UmZta0Y0QmlmRFNXLW1WeXF0MUxQOXJVVG51T1VRM19fZkJTU0JXeEhkWWRtVkNKVnZ1dzB3bmsyOFhZVFVhRjhMZWNBZkFvRmYyT3puT3NneFdMNUZYMFBsdzJCMHE?oc=5",
-          "source": "Newsquawk",
-          "publishedAt": "2026-10-19T10:20:26+00:00",
+          "title": "Trump failing to block China’s access to American AI technology, say senior Senate Democrats - The Hill",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SOFUzQzlsOFVDUlRWN0VCMGx0Z3NEODlYQjliN29VbHZfWElQUXdueFhjYUxJaWhVcEZUdkpFX2pIcGQzLTFSMWswRjZ1b3AtX3MtNWZ3MzcxdmJXV0oyLUVnUHBOQmdHelBxM0lza3FiaXA5MFVxMkJR0gF_QVVfeXFMTWFpVU1NNDNWSHFBNnFSbGJHMG95U2VzUWVjX2FzZzZPa2w2TGJ0Q1dtMWk1OUNaSExxMGtyaFU1d0RZSzc2blNqUGc5Y1U3dDNEUTdlY2MxVG1mQ0Vnb0NYbTQyT1VsdzZtN2V4SDZBZ3UtV1ppMmNtSlYyQ3kyQQ?oc=5",
+          "source": "The Hill",
+          "publishedAt": "2026-09-22T07:00:00+00:00",
           "phase": "escalation"
         }
       ],
@@ -294,33 +294,33 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-26T20:01:19.325508+00:00",
+      "updatedAt": "2026-10-26T23:56:32.683558+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "softening",
+      "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
-        "softening": 5,
+        "escalation": 4,
+        "softening": 4,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
         {
+          "title": "Trump accuses Iran of making up fake strikes on ships to drive up oil prices - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDJacGlyUkJSMmZfSXF5dlBwLU5PRXdsQnZiMFRyRmJTeVU3dHZnQlF6WDVRQ0pjYlFFamxjV3dXU0E4SmZ0SkRUMW1uLVh6cE05SDBLTEhlTnI3T3dwQXNWbFQ3TzFaZ1lZY0RNeVlNSW8zaDN6aDh1NWg2ZTNvTV9OM0xYQQ?oc=5",
+          "source": "CBS News",
+          "publishedAt": "2026-10-21T13:45:00+00:00",
+          "phase": "escalation"
+        },
+        {
           "title": "Can Trump's economic war against Iran do what airstrikes and negotiations couldn't? - NPR",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HMGs0bllsTEY2UjB0aXFHZl93a1RqdE5zaXJab05Cc1l0RFVyel9iaXlhdWZFS1NURDhzWk44SEtQZ2pjZXBNc0VxTnpuTS1ZbERHYUY1aFlPd2EwMUxrOFlYMzNzdm5MNVZWb0tkeVB2bEk?oc=5",
           "source": "NPR",
           "publishedAt": "2026-08-25T07:00:00+00:00",
-          "phase": "escalation"
-        },
-        {
-          "title": "U.S. military strikes Iranian targets in first military action in a month - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?oc=5",
-          "source": "CBS News",
-          "publishedAt": "2026-08-30T07:00:00+00:00",
           "phase": "escalation"
         },
         {
@@ -346,9 +346,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-26T20:01:19.309589+00:00",
-      "phaseLabel": "软化/谈判",
-      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
+      "updatedAt": "2026-10-26T23:56:32.705951+00:00",
+      "phaseLabel": "强硬升级",
+      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "fiscal",
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-26T20:01:19.393462+00:00",
+      "updatedAt": "2026-10-26T23:56:32.893462+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-26T20:01:20.160177+00:00",
+    "asOf": "2026-10-26T23:56:33.916717+00:00",
     "aggregateScore": 67.6,
     "aggregateLabel": "偏高",
     "highRiskCount": 4,
@@ -1821,7 +1821,7 @@
             "price": 233.78,
             "priceIndex": 73.88,
             "sectorIndex": 81.6,
-            "volume": 13576040
+            "volume": 14381757
           }
         ],
         "score": 79.7,
@@ -3837,7 +3837,7 @@
             "price": 903.7,
             "priceIndex": 90.73,
             "sectorIndex": 81.6,
-            "volume": 21980751
+            "volume": 22626420
           }
         ],
         "score": 77.6,
@@ -5833,7 +5833,7 @@
             "price": 329.17,
             "priceIndex": 78.58,
             "sectorIndex": 81.6,
-            "volume": 16885203
+            "volume": 18489189
           }
         ],
         "score": 72.1,
@@ -5869,7 +5869,7 @@
             "endDate": "2026-10-31",
             "eps": {
               "current": 3.83018,
-              "value30dAgo": 3.82578,
+              "value30dAgo": 3.82526,
               "value60dAgo": 3.87825,
               "change30d": 0.1,
               "change60d": -1.2
@@ -5889,7 +5889,7 @@
               "endDate": "2026-10-31",
               "eps": {
                 "current": 3.83018,
-                "value30dAgo": 3.82578,
+                "value30dAgo": 3.82526,
                 "value60dAgo": 3.87825,
                 "change30d": 0.1,
                 "change60d": -1.2
@@ -5909,7 +5909,7 @@
               "eps": {
                 "current": 4.08779,
                 "value30dAgo": 4.07566,
-                "value60dAgo": 4.13879,
+                "value60dAgo": 4.13699,
                 "change30d": 0.3,
                 "change60d": -1.2
               },
@@ -5946,10 +5946,10 @@
               "endDate": "2027-10-31",
               "eps": {
                 "current": 19.4315,
-                "value30dAgo": 19.3832,
-                "value60dAgo": 19.56477,
-                "change30d": 0.2,
-                "change60d": -0.7
+                "value30dAgo": 19.3807,
+                "value60dAgo": 19.55167,
+                "change30d": 0.3,
+                "change60d": -0.6
               },
               "revenue": {
                 "current": 174141560950.0,
@@ -7846,7 +7846,7 @@
             "price": 216.0,
             "priceIndex": 98.78,
             "sectorIndex": 81.6,
-            "volume": 86314551
+            "volume": 90043857
           }
         ],
         "score": 65.1,
@@ -9842,7 +9842,7 @@
             "price": 531.28,
             "priceIndex": 101.54,
             "sectorIndex": 81.6,
-            "volume": 15855827
+            "volume": 16655593
           }
         ],
         "score": 59.6,
@@ -11464,7 +11464,7 @@
             "price": 32.69,
             "priceIndex": 69.7,
             "sectorIndex": 81.6,
-            "volume": 22391054
+            "volume": 23165141
           }
         ],
         "score": 51.6,
@@ -12210,7 +12210,7 @@
       "name": "债券波动率",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-26T19:32:30+00:00",
+      "updatedAt": "2026-10-26T20:17:30+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EMOVE/"
     },
@@ -12219,7 +12219,7 @@
       "name": "标普500",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-26T20:01:17+00:00",
+      "updatedAt": "2026-10-26T20:43:43+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
     },
@@ -12228,7 +12228,7 @@
       "name": "股市恐慌",
       "freshness": "live",
       "freshnessLabel": "最新交易时点",
-      "updatedAt": "2026-10-26T19:46:16+00:00",
+      "updatedAt": "2026-10-26T20:15:01+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
     },
