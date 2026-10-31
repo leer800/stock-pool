@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31T20:04:15.100343+00:00",
+  "asOf": "2026-10-31T23:27:56.698684+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -52,8 +52,8 @@
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
       "updatedAt": "2026-10-30T20:17:30+00:00",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceTier": "market",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EMOVE/"
@@ -68,8 +68,8 @@
       "direction": "下跌增加压力",
       "interpretation": "股市回撤会强化政策反馈；上涨则释放压力。",
       "updatedAt": "2026-10-30T20:47:43+00:00",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceTier": "market",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
@@ -84,8 +84,8 @@
       "direction": "指数上升增加压力",
       "interpretation": "波动率抬升意味着政策冲击更难被市场消化。",
       "updatedAt": "2026-10-30T20:15:01+00:00",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceTier": "market",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 6,
-        "softening": 2,
+        "escalation": 5,
+        "softening": 3,
         "execution": 0,
         "monitoring": 0
       },
@@ -227,10 +227,10 @@
           "phase": "escalation"
         },
         {
-          "title": "GOP senator announces tariff exemptions, as Trump says Canada's working hard to make a deal - National Post",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkxJMXFoWDBBaDV2RW8ybXI2ZHljMHpqU0lHRk1obGR1LVcxcmIzNEwtemJoNjliQUJMRWRJS2hUMXFzcDRVZDJWZlhIY3J6MWdDZnZqcVBySDZiQ1UzM2Z5QzB0di1XWkQteGZuSTVhMzFKQjgzcTYyZkNyM244Y1R1dlZ5MXBVZ0hndU1vQk9teHkxbFRGLVRlWQ?oc=5",
-          "source": "National Post",
-          "publishedAt": "2026-10-23T07:00:00+00:00",
+          "title": "Trump adviser says Alberta referendum made it ‘essentially impossible’ to negotiate on trade deal - CTV News",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQmctMTVhX3FMNl9uNWdzN2lTelFBdFk5RG41Tm9rOERaRFNUdTk0d25uT2hhY3hMcG9MSzdjaXdpQXBnSlhEUmdIVHo1RGdRM0IwekZEMTh6RjAxaWtEcVo1NzNJWnpfY3cyaDhyZzFMMm9UbkRwbVY0M1JYekNDQlY0b21IOVJZeGNaaklacFVtRlR1Q1pXVFBocFRXY2JVdDYxMVpwRDZvV2tMWmFkOHZyRmN2X2xFcWJ5cXozUEEzb3FtRzNRWm1MV0p3YlRRdUZHS0FxcUVkaVhCUXBIckZB?oc=5",
+          "source": "CTV News",
+          "publishedAt": "2026-10-25T21:05:52+00:00",
           "phase": "softening"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T20:04:14.126062+00:00",
+      "updatedAt": "2026-10-31T23:27:55.172219+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 3,
-        "softening": 1,
+        "escalation": 1,
+        "softening": 0,
         "execution": 0,
-        "monitoring": 4
+        "monitoring": 7
       },
       "items": [
         {
@@ -265,25 +265,25 @@
           "phase": "monitoring"
         },
         {
-          "title": "The BR International Trade Report: October 2026 - Blank Rome LLP",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS183cjhyTUJvd3lLeVdCenNra0lRdHpJb3FYYlJsdU4zRmRaLW13QmJFdE9UOWtfUnpNQTFmNkNUWUhBZkx5aTZPWDZldzB1R2VlOW93bnVFeUsyc3V4TTNfYXdzN1RUbTQyZ0dlQnRDQmRwWE5zOXVwOXEzYWRVTks1dTlXUWIyTkpsa2ZIV0tCdEE?oc=5",
-          "source": "Blank Rome LLP",
-          "publishedAt": "2026-10-21T07:00:00+00:00",
+          "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5",
+          "source": "China Briefing",
+          "publishedAt": "2026-09-30T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "U.S. Firms Shun Russian Diesel Despite Trump's Sanctions Waiver - Seoul Economic Daily",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNekdNNUxWOFZ5emxIVnRUaGlHdVM5VXVlcDJIOEFFUDBCcEJLQTFzeXlFVl9UdG1lRWxteHAzOHNVd2syTTFDVkNiUVB2NjhNQXdYdzR6RFdNT0F3VVI4RWNiTE5WVUNvSjdPUXdhV3MzeEhwMzhHb0tmaG93ekZTZTBMUGh5RU1HQWJDRmdOUWZ5TWRDb1o5WEROY1FBR2Jpc3Y1ZmNiWnBJREo5?oc=5",
-          "source": "Seoul Economic Daily",
-          "publishedAt": "2026-10-30T03:15:42+00:00",
-          "phase": "escalation"
+          "title": "Tech war 2.0: The dangers of Trump's 'G2' bargaining with an emboldened China - European Union Institute for Security Studies |",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2FDamFNdE1ySHZKdTZfWVFWR19UOTZ4cWtDQ3QzNF9VVkhFVFVlUFZBNkF3anNpdmxtNlYtNUJWTmhKLW1tTjB5VWM0ZmFIZXg0Nk80VU9qYzNWdUd2MzU0dFJuMV9XMjJoeGFiVDlsb0NLZHJodWY1Q3VvUnd4eUstTjRyMFNLVEl4bnJMVHphSENoSjZVUE1rb1V2SWNiWWxaV2Fn?oc=5",
+          "source": "European Union Institute for Security Studies |",
+          "publishedAt": "2025-12-16T08:00:00+00:00",
+          "phase": "monitoring"
         },
         {
-          "title": "US Market Open: Trump waived key Russian sanctions; US equity futures set to open firmer - Newsquawk",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdG5SY1dWNmR3VGFRS2ctV0YxQ0ljR1FUZE5CQXVTSnJfb3FmLTlnNF9YSDV2UkpRdVRDakZXd0d6bDhxY1BLWEdCeWFPQjV3M3lmX3VPdFRGMWNnNWZieVo2UmZta0Y0QmlmRFNXLW1WeXF0MUxQOXJVVG51T1VRM19fZkJTU0JXeEhkWWRtVkNKVnZ1dzB3bmsyOFhZVFVhRjhMZWNBZkFvRmYyT3puT3NneFdMNUZYMFBsdzJCMHE?oc=5",
-          "source": "Newsquawk",
-          "publishedAt": "2026-10-19T07:00:00+00:00",
-          "phase": "escalation"
+          "title": "US mulls new rules for AI chip exports, including requiring US investments by foreign firms - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbHlIa3ZDZ0wxc19tUmxrb1l4aml2UEI2S3MtV1RrMWxJV3FsS2ZuMk9oQk9Ed1YyTGZBWlRIU0lFQkxkbmNFbFpOblk0LUo0X2JReEdDdkEyVzFYc0VqOWtfUmhIb2JYbjc4VmtxY1NoTU1jRk5RRUE1Q1NkSGhUZVVmdW9qVzBnYnNOZzVoV21rbFpheFVPMVRLenVVRzVILWU5ZWNGTnhZMGk5anRNTDdnbHRTV1FDOW9j?oc=5",
+          "source": "Reuters",
+          "publishedAt": "2026-03-05T08:00:00+00:00",
+          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T20:04:14.008260+00:00",
+      "updatedAt": "2026-10-31T23:27:55.034695+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T20:04:14.106697+00:00",
+      "updatedAt": "2026-10-31T23:27:55.254931+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -362,10 +362,17 @@
       },
       "items": [
         {
-          "title": "Trump Says Exxon and Chevron Are Ripping Off Americans, But His Own Policies Are to Blame - Institute on Taxation and Economic Policy",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mdTRoSjNPWG9Ub0YzMUVSZDFaMU1zNDB2dlBmRnNkS1ZFZEF3VVlSdzFjTGM0b29MZVBaRy0xMkVROWRiOHgtcU5PVXlfSDQ5VDF1aWtYNzUxeW1WckJZMldCcVRidW1SUVRwNW0tUWVpM0E?oc=5",
-          "source": "Institute on Taxation and Economic Policy",
-          "publishedAt": "2026-08-04T07:00:00+00:00",
+          "title": "Opinion | Hollywood loves to hate Trump. But it loves money more. - The Washington Post",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRTJUSXZOeDdlTXExLXEzSHplQUVsTlY4Nkp0TFNFTjRPc2NqT3NGb0pkZ3FmM3RxS0FaR0Q2eGJyLVRFN3hvTGFsQkFUNmF5c056QWdmYmlrZFg5WU5LSkM4aWt3ak1FVFBFQ0xwT3ZPeUlZcEFGbTVmTzBxZjhQRHlaZ3lDWlNFMFd4TTRpVHR0d2VBUGF1V0NuMnNsWXJmWHFBM0c4UEh5QjZURU5WUTNkLVdudw?oc=5",
+          "source": "The Washington Post",
+          "publishedAt": "2026-09-05T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Trump Trade War With Canada Puts Film, TV Spending Rules in Crosshairs - The Hollywood Reporter",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWRnSVRlYmo1Unc0VVUtVmlhRjBJV3NoYTZwVTlXWWw3WkpDZXdBQXI1aEp5Um9US011QkRVRDBhWEZzNS1aQ1FndzQ2NmlQZ0FWMXlMYmlWM2JHWldFZjBET3pNeGJYYXprd2RHYWkwZXIzRFloQUN0STB6Q0VUVks4Um1tczdXY1dlNnlhbjZjRzNJbEE?oc=5",
+          "source": "The Hollywood Reporter",
+          "publishedAt": "2026-08-24T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
@@ -381,13 +388,6 @@
           "source": "PBS",
           "publishedAt": "2026-03-18T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
-          "source": "Center for American Progress",
-          "publishedAt": "2026-02-17T08:00:00+00:00",
-          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T20:04:13.826608+00:00",
+      "updatedAt": "2026-10-31T23:27:55.337619+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-31T20:04:15.098624+00:00",
+    "asOf": "2026-10-31T23:27:56.697501+00:00",
     "aggregateScore": 74.1,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1923,7 +1923,7 @@
                 "change60d": 0.5
               },
               "revenue": {
-                "current": 12070050480.0,
+                "current": 12070060860.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -1942,7 +1942,7 @@
                 "change60d": 9.8
               },
               "revenue": {
-                "current": 19716210400.0,
+                "current": 19716212170.0,
                 "value30dAgo": null,
                 "value60dAgo": null,
                 "change30d": null,
@@ -12445,8 +12445,8 @@
     {
       "id": "move",
       "name": "债券波动率",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "updatedAt": "2026-10-30T20:17:30+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EMOVE/"
@@ -12454,8 +12454,8 @@
     {
       "id": "spx",
       "name": "标普500",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "updatedAt": "2026-10-30T20:47:43+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC/"
@@ -12463,8 +12463,8 @@
     {
       "id": "vix",
       "name": "股市恐慌",
-      "freshness": "live",
-      "freshnessLabel": "最新交易时点",
+      "freshness": "delayed",
+      "freshnessLabel": "最近交易日",
       "updatedAt": "2026-10-30T20:15:01+00:00",
       "sourceName": "Yahoo Finance 市场数据",
       "sourceUrl": "https://finance.yahoo.com/quote/%5EVIX/"
