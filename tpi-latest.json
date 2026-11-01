@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-31T23:27:56.698684+00:00",
+  "asOf": "2026-11-01T06:23:07.137036+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,8 +199,8 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
-        "softening": 3,
+        "escalation": 6,
+        "softening": 2,
         "execution": 0,
         "monitoring": 0
       },
@@ -227,10 +227,10 @@
           "phase": "escalation"
         },
         {
-          "title": "Trump adviser says Alberta referendum made it ‘essentially impossible’ to negotiate on trade deal - CTV News",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQmctMTVhX3FMNl9uNWdzN2lTelFBdFk5RG41Tm9rOERaRFNUdTk0d25uT2hhY3hMcG9MSzdjaXdpQXBnSlhEUmdIVHo1RGdRM0IwekZEMTh6RjAxaWtEcVo1NzNJWnpfY3cyaDhyZzFMMm9UbkRwbVY0M1JYekNDQlY0b21IOVJZeGNaaklacFVtRlR1Q1pXVFBocFRXY2JVdDYxMVpwRDZvV2tMWmFkOHZyRmN2X2xFcWJ5cXozUEEzb3FtRzNRWm1MV0p3YlRRdUZHS0FxcUVkaVhCUXBIckZB?oc=5",
-          "source": "CTV News",
-          "publishedAt": "2026-10-25T21:05:52+00:00",
+          "title": "GOP senator announces tariff exemptions, as Trump says Canada's working hard to make a deal - National Post",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQkxJMXFoWDBBaDV2RW8ybXI2ZHljMHpqU0lHRk1obGR1LVcxcmIzNEwtemJoNjliQUJMRWRJS2hUMXFzcDRVZDJWZlhIY3J6MWdDZnZqcVBySDZiQ1UzM2Z5QzB0di1XWkQteGZuSTVhMzFKQjgzcTYyZkNyM244Y1R1dlZ5MXBVZ0hndU1vQk9teHkxbFRGLVRlWQ?oc=5",
+          "source": "National Post",
+          "publishedAt": "2026-10-23T07:00:00+00:00",
           "phase": "softening"
         }
       ],
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T23:27:55.172219+00:00",
+      "updatedAt": "2026-11-01T06:23:05.850188+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -251,10 +251,10 @@
       "name": "科技与出口管制",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 1,
-        "softening": 0,
+        "escalation": 3,
+        "softening": 1,
         "execution": 0,
-        "monitoring": 7
+        "monitoring": 4
       },
       "items": [
         {
@@ -265,25 +265,25 @@
           "phase": "monitoring"
         },
         {
-          "title": "US-China Relations in the Trump 2.0 Era: A Timeline - China Briefing",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVl9rOHkwQl9VYldidlJVajgtZzY4VE5TQmt6eEQ2czIxaTk5N3Ywd3diVXdCT3dKVmhUNmxMRjJ0UnJKdGE2TUtuNklrdWx4UTVGZG5kY1pvWnNEWUhkdmZ5WkV3R0plREV6aTlGc1JEUHVQeG02VzRsVE82OERteXhsMGNfTEVPMllnN0p3?oc=5",
-          "source": "China Briefing",
-          "publishedAt": "2026-09-30T07:00:00+00:00",
+          "title": "The BR International Trade Report: October 2026 - Blank Rome LLP",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS183cjhyTUJvd3lLeVdCenNra0lRdHpJb3FYYlJsdU4zRmRaLW13QmJFdE9UOWtfUnpNQTFmNkNUWUhBZkx5aTZPWDZldzB1R2VlOW93bnVFeUsyc3V4TTNfYXdzN1RUbTQyZ0dlQnRDQmRwWE5zOXVwOXEzYWRVTks1dTlXUWIyTkpsa2ZIV0tCdEE?oc=5",
+          "source": "Blank Rome LLP",
+          "publishedAt": "2026-10-21T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "Tech war 2.0: The dangers of Trump's 'G2' bargaining with an emboldened China - European Union Institute for Security Studies |",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2FDamFNdE1ySHZKdTZfWVFWR19UOTZ4cWtDQ3QzNF9VVkhFVFVlUFZBNkF3anNpdmxtNlYtNUJWTmhKLW1tTjB5VWM0ZmFIZXg0Nk80VU9qYzNWdUd2MzU0dFJuMV9XMjJoeGFiVDlsb0NLZHJodWY1Q3VvUnd4eUstTjRyMFNLVEl4bnJMVHphSENoSjZVUE1rb1V2SWNiWWxaV2Fn?oc=5",
-          "source": "European Union Institute for Security Studies |",
-          "publishedAt": "2025-12-16T08:00:00+00:00",
-          "phase": "monitoring"
+          "title": "U.S. Firms Shun Russian Diesel Despite Trump's Sanctions Waiver - Seoul Economic Daily",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNekdNNUxWOFZ5emxIVnRUaGlHdVM5VXVlcDJIOEFFUDBCcEJLQTFzeXlFVl9UdG1lRWxteHAzOHNVd2syTTFDVkNiUVB2NjhNQXdYdzR6RFdNT0F3VVI4RWNiTE5WVUNvSjdPUXdhV3MzeEhwMzhHb0tmaG93ekZTZTBMUGh5RU1HQWJDRmdOUWZ5TWRDb1o5WEROY1FBR2Jpc3Y1ZmNiWnBJREo5?oc=5",
+          "source": "Seoul Economic Daily",
+          "publishedAt": "2026-10-30T03:15:42+00:00",
+          "phase": "escalation"
         },
         {
-          "title": "US mulls new rules for AI chip exports, including requiring US investments by foreign firms - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbHlIa3ZDZ0wxc19tUmxrb1l4aml2UEI2S3MtV1RrMWxJV3FsS2ZuMk9oQk9Ed1YyTGZBWlRIU0lFQkxkbmNFbFpOblk0LUo0X2JReEdDdkEyVzFYc0VqOWtfUmhIb2JYbjc4VmtxY1NoTU1jRk5RRUE1Q1NkSGhUZVVmdW9qVzBnYnNOZzVoV21rbFpheFVPMVRLenVVRzVILWU5ZWNGTnhZMGk5anRNTDdnbHRTV1FDOW9j?oc=5",
-          "source": "Reuters",
-          "publishedAt": "2026-03-05T08:00:00+00:00",
-          "phase": "monitoring"
+          "title": "US Market Open: Trump waived key Russian sanctions; US equity futures set to open firmer - Newsquawk",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdG5SY1dWNmR3VGFRS2ctV0YxQ0ljR1FUZE5CQXVTSnJfb3FmLTlnNF9YSDV2UkpRdVRDakZXd0d6bDhxY1BLWEdCeWFPQjV3M3lmX3VPdFRGMWNnNWZieVo2UmZta0Y0QmlmRFNXLW1WeXF0MUxQOXJVVG51T1VRM19fZkJTU0JXeEhkWWRtVkNKVnZ1dzB3bmsyOFhZVFVhRjhMZWNBZkFvRmYyT3puT3NneFdMNUZYMFBsdzJCMHE?oc=5",
+          "source": "Newsquawk",
+          "publishedAt": "2026-10-19T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T23:27:55.034695+00:00",
+      "updatedAt": "2026-11-01T06:23:05.730686+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -303,12 +303,19 @@
       "name": "军事与地缘",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 5,
+        "escalation": 4,
         "softening": 3,
         "execution": 0,
-        "monitoring": 0
+        "monitoring": 1
       },
       "items": [
+        {
+          "title": "Iran war live: Trump has not decided on renewed Iran military action: Rubio - Arabian Business",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeGVzSjhrbUhOTTctX0ViTkJTRnFEZnkwNTJQR3gySTJRQlk3aXNwenJ2Qk1DejVYcF84dmF4WDFPd2xKRzEwazEtOEdOb05OOFhJaXZQVTd3R2lDRHdGbTgtM1JSSEMxeFN5OTlLc0tLNE55MHlHRDZNU3lOVFBDaTJwQQ?oc=5",
+          "source": "Arabian Business",
+          "publishedAt": "2026-10-31T23:09:05+00:00",
+          "phase": "monitoring"
+        },
         {
           "title": "Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump - CBS News",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
@@ -329,13 +336,6 @@
           "source": "CNBC",
           "publishedAt": "2026-07-27T07:00:00+00:00",
           "phase": "softening"
-        },
-        {
-          "title": "Trump signals shift to economic pressure on Iran over new military strikes - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZUp2OWhnVmxOYkpZTTM5TEktOUY1REswc3Roc04zNDNKbDAwQl9ib2JhZ1QtbHY3UHJXc2JjVkNYam5WNVJPR1lNNnlmS3ZkX253WTJtRE9ESG1BdnVSanQxWk9MR2NDeG15dlpzaEZrTm1Rcnowc1RLRmlaSnNPVmJxRHBUU0M1RWlqNTlSYmtDbW1zRzVDZHNkSk5SR1RWMWFmeVVMUHBCNzlJeVZmXzEyeURfd015SmfSAb8BQVVfeXFMUFFkMFhlblVNbUtKdmNacEI5cHVJRjJJbW44VXFoQzkwNXozeEoxZHFIWHZ2aEllSGpEQkYwVXhQV210LUFsMUloaWFZVXlQdmJjcTBOb2JmdzlaWnVyQkcxSUd1eGFtMzRUaW1BaktraDBxcnJGZjNvSjBJSXpaMzJtLTBPcGgyaWE2ZHE1TkhkY19ZRXdqR1Vubk1JbVJJMDZ6d2w1dmwtVVZPb244OGtYeW1pRC1tN2p1b3BiZlU?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-08-10T07:00:00+00:00",
-          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T23:27:55.254931+00:00",
+      "updatedAt": "2026-11-01T06:23:05.804001+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -355,24 +355,31 @@
       "name": "财政、税收与产业补贴",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 1,
+        "escalation": 2,
         "softening": 0,
         "execution": 0,
-        "monitoring": 7
+        "monitoring": 6
       },
       "items": [
         {
-          "title": "Opinion | Hollywood loves to hate Trump. But it loves money more. - The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRTJUSXZOeDdlTXExLXEzSHplQUVsTlY4Nkp0TFNFTjRPc2NqT3NGb0pkZ3FmM3RxS0FaR0Q2eGJyLVRFN3hvTGFsQkFUNmF5c056QWdmYmlrZFg5WU5LSkM4aWt3ak1FVFBFQ0xwT3ZPeUlZcEFGbTVmTzBxZjhQRHlaZ3lDWlNFMFd4TTRpVHR0d2VBUGF1V0NuMnNsWXJmWHFBM0c4UEh5QjZURU5WUTNkLVdudw?oc=5",
-          "source": "The Washington Post",
-          "publishedAt": "2026-09-05T07:00:00+00:00",
+          "title": "Trump Says Exxon and Chevron Are Ripping Off Americans, But His Own Policies Are to Blame - Institute on Taxation and Economic Policy",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mdTRoSjNPWG9Ub0YzMUVSZDFaMU1zNDB2dlBmRnNkS1ZFZEF3VVlSdzFjTGM0b29MZVBaRy0xMkVROWRiOHgtcU5PVXlfSDQ5VDF1aWtYNzUxeW1WckJZMldCcVRidW1SUVRwNW0tUWVpM0E?oc=5",
+          "source": "Institute on Taxation and Economic Policy",
+          "publishedAt": "2026-08-04T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
-          "title": "Trump Trade War With Canada Puts Film, TV Spending Rules in Crosshairs - The Hollywood Reporter",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRWRnSVRlYmo1Unc0VVUtVmlhRjBJV3NoYTZwVTlXWWw3WkpDZXdBQXI1aEp5Um9US011QkRVRDBhWEZzNS1aQ1FndzQ2NmlQZ0FWMXlMYmlWM2JHWldFZjBET3pNeGJYYXprd2RHYWkwZXIzRFloQUN0STB6Q0VUVks4Um1tczdXY1dlNnlhbjZjRzNJbEE?oc=5",
-          "source": "The Hollywood Reporter",
-          "publishedAt": "2026-08-24T07:00:00+00:00",
+          "title": "Tracking the Impact of the Trump Tariffs & Trade War - Tax Foundation",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LU1daamtmcnNXWEZENFBwb3BYMThMQ1M4bHFPSzVZX0s5QmlLYWM4dDdKUGNiOF9iNjcxZ2VZTXd0bVJ6NGNNcDZVVmlkc25rTmxLd3Q4RVJhQmM3dUhpR3h1aXhXNGs3UkNQN0ZKLUpSSnBnOWVaX0tTRQ?oc=5",
+          "source": "Tax Foundation",
+          "publishedAt": "2026-08-20T16:36:30+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "What to Know About Trump Accounts - Bipartisan Policy Center",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52cWZRSWVuVDVJREZMTVY5TGNfcWU1Y0RIU3BPUk9yMm95NUc0NldEZnZzYWdsN3lkWmo3U1FkeXVSZTlsYjBnTE1xLWZicXpUV1NySWNNTE9xaF9NbDQwOUpmUEdSSWFYZm9VZDM3R1VqbWwwOEdiQUdEZV9QUQ?oc=5",
+          "source": "Bipartisan Policy Center",
+          "publishedAt": "2026-06-23T07:00:00+00:00",
           "phase": "monitoring"
         },
         {
@@ -381,13 +388,6 @@
           "source": "Center on Budget and Policy Priorities",
           "publishedAt": "2026-02-11T08:00:00+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "Trump's tariffs are causing harm to American manufacturers instead of benefiting them - PBS",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZ0ZTS1RRSng2bnJVYUs3NHNOdll3V1FGR2FrVnVqMENaRlJXNDZFY09xN0ZFN0Nla1pMTFo5RW5FOU90TXNXbDNWQ2lxV1JFWTYwUjZ5dV9VZGlQZmlXN0tMOGJ4N1RsYkJJVXFRRHZXWF9kZmhnd2NGaDVKMkM0Nmw2aWlQQzdOMHVuQzh1ZEFxMENNWlJfLVF2RkJpMGhlbXlXYm1uMExJRUZtUWIxb3B0MWVIWkIwcE1XWWdn?oc=5",
-          "source": "PBS",
-          "publishedAt": "2026-03-18T07:00:00+00:00",
-          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-10-31T23:27:55.337619+00:00",
+      "updatedAt": "2026-11-01T06:23:05.657182+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-10-31T23:27:56.697501+00:00",
+    "asOf": "2026-11-01T06:23:07.135788+00:00",
     "aggregateScore": 74.1,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -425,7 +425,7 @@
         "earningsCalendar": {
           "lastCallDate": "2026-08-27T20:45:00+00:00",
           "nextCallDate": null,
-          "nextReportDate": "2026-12-01T20:00:00+00:00",
+          "nextReportDate": "2026-12-01T21:00:00+00:00",
           "nextDateEstimated": true
         },
         "earningsWindow": {
@@ -2484,7 +2484,7 @@
         "earningsCalendar": {
           "lastCallDate": null,
           "nextCallDate": "2026-12-10T22:00:00+00:00",
-          "nextReportDate": "2026-12-09T20:00:00+00:00",
+          "nextReportDate": "2026-12-09T21:00:00+00:00",
           "nextDateEstimated": false
         },
         "earningsWindow": {
@@ -4523,7 +4523,7 @@
         "earningsCalendar": {
           "lastCallDate": "2026-09-30T22:00:00+00:00",
           "nextCallDate": null,
-          "nextReportDate": "2026-12-23T20:00:00+00:00",
+          "nextReportDate": "2026-12-23T21:00:00+00:00",
           "nextDateEstimated": true
         },
         "earningsWindow": {
@@ -6581,7 +6581,7 @@
         "earningsCalendar": {
           "lastCallDate": null,
           "nextCallDate": "2026-11-17T22:00:00+00:00",
-          "nextReportDate": "2026-11-17T20:00:00+00:00",
+          "nextReportDate": "2026-11-17T21:00:00+00:00",
           "nextDateEstimated": false
         },
         "earningsWindow": {
@@ -8616,7 +8616,7 @@
         "earningsCalendar": {
           "lastCallDate": null,
           "nextCallDate": "2026-11-03T22:00:00+00:00",
-          "nextReportDate": "2026-11-03T20:00:00+00:00",
+          "nextReportDate": "2026-11-03T21:00:00+00:00",
           "nextDateEstimated": false
         },
         "earningsWindow": {
@@ -8629,8 +8629,8 @@
           "breakDate": "2026-10-16",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 15,
-          "label": "股价已先跌15天，机构尚未下调"
+          "waitingDays": 16,
+          "label": "股价已先跌16天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -10656,7 +10656,7 @@
         "earningsCalendar": {
           "lastCallDate": null,
           "nextCallDate": "2026-11-03T22:00:00+00:00",
-          "nextReportDate": "2026-11-03T20:00:00+00:00",
+          "nextReportDate": "2026-11-03T21:00:00+00:00",
           "nextDateEstimated": false
         },
         "earningsWindow": {
@@ -10669,8 +10669,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 17,
-          "label": "股价已先跌17天，机构尚未下调"
+          "waitingDays": 18,
+          "label": "股价已先跌18天，机构尚未下调"
         },
         "targetEvents": [
           {
