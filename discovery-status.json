@@ -1,13 +1,13 @@
 {
   "version": 1,
   "status": "success",
-  "attemptedAt": "2026-10-30T15:52:54.534644+00:00",
-  "attemptedDate": "2026-10-30",
-  "dataDate": "2026-10-30",
+  "attemptedAt": "2026-11-02T19:26:58.938314+00:00",
+  "attemptedDate": "2026-11-03",
+  "dataDate": "2026-11-03",
   "message": "主动发现数据已更新。",
   "counts": {
-    "signals": 158,
-    "papers": 34,
+    "signals": 151,
+    "papers": 33,
     "candidates": 59
   },
   "warnings": [
