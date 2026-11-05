@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-04T22:40:50.839718+00:00",
+  "asOf": "2026-11-05T03:33:18.762958+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -199,19 +199,12 @@
       "name": "关税与贸易",
       "phase": "escalation",
       "phaseCounts": {
-        "escalation": 4,
-        "softening": 4,
+        "escalation": 6,
+        "softening": 2,
         "execution": 0,
         "monitoring": 0
       },
       "items": [
-        {
-          "title": "Trump's midterm defeat gives China, Canada, India and Africa's largest economy fresh leverage in US trade talks - Business Insider Africa",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZ2J2RHozUzhNdWZKejdqMm92a3cyaV8xMjh2ekdIZVZ6VEM2bkxOSnJhemU2eUdndG1Qc0pNd2RxQVVrX0xVZ0lSeWxLc0x3S21kd3ZBMEl0Vk9sSGhkSEctVFJ6WVlxQ0ZiZWI0Y0VYdWN6YngwS1NKSzl6dFJEbm9ENEtuRVpYc1dGMENodFNMR2ZoU3VnUV9ZRHdhSVRaQ0RweUVsVmFBcEl2ZXI4TW5NeDBXU1QyZW1EUTV4eklSY0c5R2dLcFZFa1V6SzF3emtV?oc=5",
-          "source": "Business Insider Africa",
-          "publishedAt": "2026-11-04T18:18:01+00:00",
-          "phase": "softening"
-        },
         {
           "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports - NPR",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5pSzhrd21rSldqYjJuV1lCdWxVbE8xWVhQM3pKRDltTDJrLWMtM09IUFFOR05LbllKd0VUblUxOTdwdHpTSjFIbktvTG9pVk5nT1JEMzl5RzRLMFhORC0zUDk5Nkx5aWlRUC1jc3dzWHo?oc=5",
@@ -232,6 +225,13 @@
           "source": "PBS",
           "publishedAt": "2026-08-22T07:00:00+00:00",
           "phase": "escalation"
+        },
+        {
+          "title": "Trump tariffs fallout: Wall Street expects fresh duty increases after US elections - Undercurrent News",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
+          "source": "Undercurrent News",
+          "publishedAt": "2026-08-11T07:00:00+00:00",
+          "phase": "escalation"
         }
       ],
       "poolCategories": [
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:40:49.389609+00:00",
+      "updatedAt": "2026-11-05T03:33:17.361963+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,7 +294,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:40:49.203864+00:00",
+      "updatedAt": "2026-11-05T03:33:17.383092+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -346,7 +346,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:40:49.209665+00:00",
+      "updatedAt": "2026-11-05T03:33:17.346690+00:00",
       "phaseLabel": "软化/谈判",
       "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
     },
@@ -362,6 +362,20 @@
       },
       "items": [
         {
+          "title": "Trump Says Exxon and Chevron Are Ripping Off Americans, But His Own Policies Are to Blame - Institute on Taxation and Economic Policy",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1mdTRoSjNPWG9Ub0YzMUVSZDFaMU1zNDB2dlBmRnNkS1ZFZEF3VVlSdzFjTGM0b29MZVBaRy0xMkVROWRiOHgtcU5PVXlfSDQ5VDF1aWtYNzUxeW1WckJZMldCcVRidW1SUVRwNW0tUWVpM0E?oc=5",
+          "source": "Institute on Taxation and Economic Policy",
+          "publishedAt": "2026-08-04T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
+          "title": "Enhanced Premium Tax Credits: Who Benefits, How Much, and What Happens Next? - Bipartisan Policy Center",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX1ptWVFWdk16UDJtQ2owbEVQN0FxemdycEZwWUVubFpmZHZVWFl4Ql8weUYyc0F3dFoyWUp5OXFLOVZwUTVjcjJ6VnAxWi04SUwtaGI5eEVCcGM4Mkk5LTRKU3d5dThBMkVXd0RWSTJ1MTFJXzBSa0J0dkk1TUk5MEdUUm43dklGaGpQZzRQT29LOUlrN1FuTWdsdDQycHc3RnJaSmZRQmhBa1BtYmFycWt0RE0?oc=5",
+          "source": "Bipartisan Policy Center",
+          "publishedAt": "2025-10-15T07:00:00+00:00",
+          "phase": "monitoring"
+        },
+        {
           "title": "Republican Megabill Trades Essential Support to Low-Income People for Skewed Tax Cuts - Center on Budget and Policy Priorities",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcmhGejlFclBFVFBOOEhLVWU4eTlrbE5wMDNta3ZqQzB4ZElpMXpsS0JjdjkzSnVSRWVCZ1NLWm1HWkhGTGx6bnJFdW9iYVlBbXBxeXNUcEFMamJ5dVBCUzJoaTZIZnZUV3ROZ3dMbS0wa0F2WFJJa3I2cnU0NVhkZmZLVUxLbktodEJWcWRHZW9QOFB5Sy0xNGVWSFNId05yT3R0SlBZOHkxZWJOYmlDWGpLdHEzbG9hX1E?oc=5",
           "source": "Center on Budget and Policy Priorities",
@@ -374,20 +388,6 @@
           "source": "PBS",
           "publishedAt": "2026-03-18T07:00:00+00:00",
           "phase": "escalation"
-        },
-        {
-          "title": "5 Hidden Ways the Government Rigs the Market in Favor of Fossil Fuels - Center for American Progress",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd2pBMG1udHlfdXJqeGZrM0lHM3Zxcjg2bG9GOUN5bnU4azBJTHdNc2pfbjFCUUhfa1Y0bnZ1eWxFX19BS1pQZW9GX3M2RTZmejAzUUJwdG5YUHMybmN5UkxzOUxycjdrT2hLLTRmNmI2MlB4emp6amJ3U1pvcGQtbloxajJ6WDgxWmZvU09uWlVSTndzcEREc3JWaXFQTXc5a3pMY2xNTnJidDBlZlVOYg?oc=5",
-          "source": "Center for American Progress",
-          "publishedAt": "2026-02-17T08:00:00+00:00",
-          "phase": "monitoring"
-        },
-        {
-          "title": "Trump's Big Ugly Law Steals from the Poor to Give to the Ultra-Rich - House Budget Committee Democrats (.gov)",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdzZ2OTkwb2RMYW5EdjNHWFVVY3VKbEdjSEhaNGpYQlBCX1lJSDA3TTV4Wk96R2RjSHV6ZXFveXpZU0haVlVyNWxOS1kwTlR1VV9QUFJubjYtNFdVOVBnQmVxSWQtbk5aVWlfVW8yWk1PMWJCZnVIN3kzUDY1QnQ3RmM3UHVrbG1EWHdlamhWS1ZGTlZTUzFrQnF4VGs2dk1DZ1o3cA?oc=5",
-          "source": "House Budget Committee Democrats (.gov)",
-          "publishedAt": "2025-08-11T07:00:00+00:00",
-          "phase": "monitoring"
         }
       ],
       "poolCategories": [
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-04T22:40:49.293558+00:00",
+      "updatedAt": "2026-11-05T03:33:17.463588+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,8 +406,8 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-04T22:40:50.837492+00:00",
-    "aggregateScore": 75.3,
+    "asOf": "2026-11-05T03:33:18.760673+00:00",
+    "aggregateScore": 75.2,
     "aggregateLabel": "极高",
     "highRiskCount": 6,
     "coverage": {
@@ -1821,7 +1821,7 @@
             "price": 795.23,
             "priceIndex": 73.09,
             "sectorIndex": 71.67,
-            "volume": 35210225
+            "volume": 35391300
           }
         ],
         "score": 88.1,
@@ -1953,7 +1953,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 11.2,
+        "scoreChange7d": 11.0,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -3922,7 +3922,7 @@
             "price": 159.8,
             "priceIndex": 51.74,
             "sectorIndex": 71.67,
-            "volume": 46188062
+            "volume": 46352800
           }
         ],
         "score": 83.2,
@@ -4053,7 +4053,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 5.1,
+        "scoreChange7d": 0.9,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -6002,7 +6002,7 @@
             "price": 325.48,
             "priceIndex": 82.62,
             "sectorIndex": 71.67,
-            "volume": 23713562
+            "volume": 23824200
           }
         ],
         "score": 82.6,
@@ -6134,7 +6134,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 1.9,
+        "scoreChange7d": 2.5,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -6729,7 +6729,7 @@
             "sector": -3.1,
             "excess": 4.1
           },
-          "reactionVolumeRatio": 2.36,
+          "reactionVolumeRatio": 2.37,
           "classification": "relative_strength",
           "label": "财报后相对强势",
           "explanation": "财报后跑赢SOXX，机构乐观仍有价格确认。"
@@ -6743,17 +6743,6 @@
           "label": "股价先跌，目标价晚19天才下调"
         },
         "targetEvents": [
-          {
-            "date": "2026-06-24T12:53:13+00:00",
-            "epoch": 1782305593,
-            "firm": "UBS",
-            "type": "target_raise",
-            "label": "上调目标价",
-            "toGrade": "Buy",
-            "fromGrade": "Buy",
-            "currentTarget": 670.0,
-            "priorTarget": 455.0
-          },
           {
             "date": "2026-06-29T14:17:05+00:00",
             "epoch": 1782742625,
@@ -7402,6 +7391,17 @@
             "fromGrade": "Neutral",
             "currentTarget": 575.0,
             "priorTarget": 550.0
+          },
+          {
+            "date": "2026-11-04T22:46:32+00:00",
+            "epoch": 1793832392,
+            "firm": "UBS",
+            "type": "target_cut",
+            "label": "下调目标价",
+            "toGrade": "Buy",
+            "fromGrade": "Buy",
+            "currentTarget": 700.0,
+            "priorTarget": 730.0
           }
         ],
         "priceTimeline": [
@@ -8103,12 +8103,12 @@
             "price": 488.78,
             "priceIndex": 89.31,
             "sectorIndex": 71.67,
-            "volume": 50584612
+            "volume": 50826900
           }
         ],
-        "score": 75.4,
-        "zone": "distribution_risk",
-        "label": "派发风险",
+        "score": 74.5,
+        "zone": "crowded",
+        "label": "一致预期拥挤",
         "evidence": [
           "买入评级高度一致",
           "目标价隐含空间偏乐观",
@@ -8127,11 +8127,11 @@
           "return20d": -24.3,
           "drawdown3m": -24.7,
           "targetRaises45d": 13,
-          "targetCuts45d": 3,
+          "targetCuts45d": 4,
           "analystCount": 48,
           "epsChange30d": 11.2,
           "epsChange60d": 11.2,
-          "revenueChange30d": 25.2,
+          "revenueChange30d": 25.3,
           "revenueChange60d": 25.9
         },
         "expectations": {
@@ -8148,9 +8148,9 @@
             },
             "revenue": {
               "current": 16356599390.0,
-              "value30dAgo": 13060086750.0,
+              "value30dAgo": 13058084460.0,
               "value60dAgo": 12992598210.0,
-              "change30d": 25.2,
+              "change30d": 25.3,
               "change60d": 25.9,
               "historyStatus": "ready"
             }
@@ -8168,9 +8168,9 @@
               },
               "revenue": {
                 "current": 16356599390.0,
-                "value30dAgo": 13060086750.0,
+                "value30dAgo": 13058084460.0,
                 "value60dAgo": 12992598210.0,
-                "change30d": 25.2,
+                "change30d": 25.3,
                 "change60d": 25.9,
                 "historyStatus": "ready"
               }
@@ -8235,7 +8235,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 20.7,
+        "scoreChange7d": 23.0,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -10184,7 +10184,7 @@
             "price": 200.13,
             "priceIndex": 94.2,
             "sectorIndex": 71.67,
-            "volume": 147804408
+            "volume": 148337800
           }
         ],
         "score": 61.6,
@@ -10314,7 +10314,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -3.2,
+        "scoreChange7d": -4.0,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
@@ -10909,7 +10909,7 @@
             "sector": -3.1,
             "excess": -2.6
           },
-          "reactionVolumeRatio": 2.45,
+          "reactionVolumeRatio": 2.46,
           "classification": "sector_driven",
           "label": "行业因素主导",
           "explanation": "个股与SOXX同步走弱，暂不把回撤单独归因于公司基本面。"
@@ -10920,8 +10920,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 21,
-          "label": "股价已先跌21天，机构尚未下调"
+          "waitingDays": 22,
+          "label": "股价已先跌22天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -11932,7 +11932,7 @@
             "price": 29.6,
             "priceIndex": 95.95,
             "sectorIndex": 71.67,
-            "volume": 88067295
+            "volume": 88354000
           }
         ],
         "score": 61.0,
@@ -12063,7 +12063,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 18.2,
+        "scoreChange7d": 19.9,
         "historyStatus": {
           "points": 39,
           "firstDate": "2026-08-04",
