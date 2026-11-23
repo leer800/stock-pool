@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-22T22:32:03.631845+00:00",
+  "asOf": "2026-11-23T03:46:08.284469+00:00",
   "version": "0.4-expectations-event-history",
   "status": "live",
   "cacheSeconds": 300,
@@ -155,7 +155,7 @@
     {
       "date": "2026-10-02",
       "label": "10.02",
-      "value": 73.9
+      "value": 73.8
     },
     {
       "date": "2026-10-09",
@@ -165,7 +165,7 @@
     {
       "date": "2026-10-16",
       "label": "10.16",
-      "value": 87.0
+      "value": 87.1
     },
     {
       "date": "2026-10-23",
@@ -180,7 +180,7 @@
     {
       "date": "2026-11-06",
       "label": "11.06",
-      "value": 87.7
+      "value": 87.8
     },
     {
       "date": "2026-11-13",
@@ -242,7 +242,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tariffs+trade+exemption+delay+deal&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T22:32:02.340287+00:00",
+      "updatedAt": "2026-11-23T03:46:07.462431+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
@@ -294,48 +294,48 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+semiconductor+AI+export+controls+sanctions+waiver&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T22:32:02.303638+00:00",
+      "updatedAt": "2026-11-23T03:46:07.404296+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "geopolitical",
       "name": "军事与地缘",
-      "phase": "softening",
+      "phase": "escalation",
       "phaseCounts": {
-        "escalation": 2,
-        "softening": 5,
+        "escalation": 6,
+        "softening": 1,
         "execution": 0,
         "monitoring": 1
       },
       "items": [
         {
-          "title": "U.S. military strikes Iranian targets in first military action in a month - CBS News",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNY3ZaTmR4OEVQWjVMZWRibUo2TGJTRDMtUVl6SmdLblprZlRsOXNPeTNvVmJRX2VUbU5JX3dCeXFfbUtqaExPa2pxZzByOEl4aDNNOThMajlXMnNHdFhFVlViTmIzTVZqMmh4RnVsMkdNTmV5ZGNVUThJYjZBRHpfdmFTY0QzYVpuUDdXUFl4c21VWDhvNWZib3NFbE00QQ?oc=5",
+          "title": "Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027 - CBS News",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGgwZTZaQWNtSzNpRDhQajRHRHFFTDhiVXczZmUtaFJiMVdTMFcwN1dWV053c1lGY2hiUnJrNnc3X1JoREFHLWNYTG52bVk5cXhMSDlCU2NkcDVCeWhQamZsX3JXdVBYdzJSdWQ1NDlKaTE4ZzIxc3U1SE1lcnhjdm45TmtHVzBMTmI4?oc=5",
           "source": "CBS News",
-          "publishedAt": "2026-08-30T07:00:00+00:00",
+          "publishedAt": "2026-11-22T22:29:00+00:00",
+          "phase": "softening"
+        },
+        {
+          "title": "Trump warns of new strikes against Iran after new year, calls negotiators ‘professional tap dancers’ - Fox News",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTWlUTXBfYUZwTTVPcllIRkpMZ29FM2lHa25PdkJEZ3F4cXpYLVdpcV9zLVFEdmhKRkE5MUE4alNSZEFDZjQ3Y1JiWlNqQmctXzdTN1UtblpFWmJKRzZwbGNMWWthbUFXSEd6ZV80cWNhb1RNYkRzdElmNGJtLTExZkhvUzg1QkZhY3B5azhKRW1NU3RwVXFWdVk0Q18tZGprV3JVRXd0RnZRUURuOFBOMjBpSWxFMkh5eFl2TElOczBkY0l6c0E?oc=5",
+          "source": "Fox News",
+          "publishedAt": "2026-11-22T17:52:35+00:00",
           "phase": "escalation"
         },
         {
-          "title": "‘Hit them hard’: Does Trump have another ‘new’ Iran strategy, can it work? - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNei1sWFJvWWlicEFKNG8wNHlCdlY1RWw2WWVKdVJ2eFdTQXNEamVVUFRLWDB1ODBoVDZRdFNTMkxuVEhWQ19JbldwdVM0VWQ1VjFBcGdGYTl6bENMdk8xV2w3NzdCRWdFZS1EQU5lZ2NRbEhzVGhWZ2FCaUZXV0pVb0dMbWFRTFdZQ2JTcVZLYVZzZUlURk1hTEZIc3BqS3c2UW90SzRKZnNqVUXSAbABQVVfeXFMT184cHBYODdkZFlSMlJ0UW1ONG5MQmhzaUdnQUtKVmRCVUF2dGY1c3pxQTVKSHN3VFFjSkozMVc5aFdzWmkzTDZkM2xIc29nYUp0N1gtOFladkpjdDVMaFFYY1NJSC02cFhZaURWeFhiWjYxenlab2FoMzBiejRCaThadXVVNEpZVXZvcXZBMWFCZmV2YUF4ZFlTX19rMjZVTDNQSlF6bm9kRXZtSllrWEE?oc=5",
-          "source": "Al Jazeera",
-          "publishedAt": "2026-09-01T07:00:00+00:00",
+          "title": "Trump threatens Iran strikes in new year, says blockade runners will be sunk - Iran International",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzRXdabm5KR1czc1RxLU9xQUFoNUdmNHNrYTFPdFBrOENlZ1c1UURxWHZpd0lJUXFEcjhqWW5JcmF3VWIzbzlpNW9aSlZOVWt2ZWc?oc=5",
+          "source": "Iran International",
+          "publishedAt": "2026-11-22T20:58:58+00:00",
+          "phase": "escalation"
+        },
+        {
+          "title": "‘We’ve Got Time’: Trump Suggests Iran War Will Continue Into 2027 - Time Magazine",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQjZGUzREbXRjRmtjM2dNZXc5eXVvVEJJOUdFdkpRNnZXVngwcDItZE9JYnJQc0diN3dRU1p3OGMzY0RQRkw4Q244ckR3UWVFWVc3ZkJHeThzU09aWnE4SHhxcVJqdld4bUtrdmdaVjA0QUdWT3dySkwzc0VVZXRDcWlHaTBZNERRWTUxbG1ZMzk?oc=5",
+          "source": "Time Magazine",
+          "publishedAt": "2026-11-20T09:30:09+00:00",
           "phase": "monitoring"
-        },
-        {
-          "title": "U.S. and Iran pause fighting, Trump dismisses concerns of dwindling stockpiles - CNBC",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51SzJtbzRPcjctRkx3Z0x3aGJUdm5zaEtkNExTLXYwczlGNUNxZ2V3VTZ4Wm9BOG1JUHdpM3licHFJVWU3d1RGRlE2bFlMN1NNSEFIQ3pPaS00TmpPcVdrODNaSFlWVDBSWTRqZTRn0gFzQVVfeXFMUDNxZFJCcW1MQVBXb3JrWWxhSFVLTVBOQlhFOVl3Nm9PT2xtLURudDkydFdsaUM5RmZUWUx3S1JpUjNCZkNTLU9EVWw0MWxCRlhvNWpQRGJscFE2bmZnNVRVUUJMOFIwRnJtX25RN2EtcWJMSQ?oc=5",
-          "source": "CNBC",
-          "publishedAt": "2026-07-27T07:00:00+00:00",
-          "phase": "softening"
-        },
-        {
-          "title": "Trump says ceasefire ‘over’ after U.S., Iran trade attacks but that talks can continue - NBC News",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORjNtd1V3TWhyd0hDQzlLOGJQUlhobGw3VTlJYnp0a3Ayak9tdEIzSXFJekhiNXFiRnZjSEZxN1dFczZtUVRWM0REcnRCSDZnVW9aUkFpeDhRUWhlSnM2YTFzRXMzdTlielRWOU96c1BBaDIxSlFFbnVpazF4M01TUGxFY2RzSnVnQ21UV29YOFk4c3VIeDhTZ3JpX1VHcXhEb0ZlQ0x5SF9pYVdobzZ0dmdxQlRNZnc?oc=5",
-          "source": "NBC News",
-          "publishedAt": "2026-07-08T07:00:00+00:00",
-          "phase": "softening"
         }
       ],
       "poolCategories": [
@@ -346,9 +346,9 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+military+strike+ceasefire+talks+sanctions&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T22:32:02.300691+00:00",
-      "phaseLabel": "软化/谈判",
-      "pressureInteraction": "已出现软化措辞，需等待延期、豁免或正式协议确认。"
+      "updatedAt": "2026-11-23T03:46:07.556200+00:00",
+      "phaseLabel": "强硬升级",
+      "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     },
     {
       "id": "fiscal",
@@ -398,7 +398,7 @@
       ],
       "sourceName": "Google News RSS",
       "sourceUrl": "https://news.google.com/rss/search?q=Trump+tax+spending+budget+manufacturing+subsidy+policy&hl=en-US&gl=US&ceid=US%3Aen",
-      "updatedAt": "2026-11-22T22:32:02.344130+00:00",
+      "updatedAt": "2026-11-23T03:46:07.381244+00:00",
       "phaseLabel": "强硬升级",
       "pressureInteraction": "强硬升级与高压力并存，最容易出现高波动和后续政策修正。"
     }
@@ -406,7 +406,7 @@
   "policyEventErrors": {},
   "institutionalCrowding": {
     "status": "live",
-    "asOf": "2026-11-22T22:32:03.630058+00:00",
+    "asOf": "2026-11-23T03:46:08.282744+00:00",
     "aggregateScore": 71.7,
     "aggregateLabel": "偏高",
     "highRiskCount": 5,
@@ -1933,7 +1933,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 13.2,
+        "scoreChange7d": 12.0,
         "historyStatus": {
           "points": 51,
           "firstDate": "2026-08-04",
@@ -4202,7 +4202,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": 20.5,
+        "scoreChange7d": 15.7,
         "historyStatus": {
           "points": 51,
           "firstDate": "2026-08-04",
@@ -4956,8 +4956,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 39,
-          "label": "股价已先跌39天，机构尚未下调"
+          "waitingDays": 40,
+          "label": "股价已先跌40天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -6451,7 +6451,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -5.1,
+        "scoreChange7d": -6.9,
         "historyStatus": {
           "points": 51,
           "firstDate": "2026-08-04",
@@ -9473,8 +9473,8 @@
           "breakDate": "2026-10-14",
           "firstCutDate": null,
           "lagDays": null,
-          "waitingDays": 39,
-          "label": "股价已先跌39天，机构尚未下调"
+          "waitingDays": 40,
+          "label": "股价已先跌40天，机构尚未下调"
         },
         "targetEvents": [
           {
@@ -12893,7 +12893,7 @@
           ],
           "method": "EPS修正来自Yahoo当前、30日前和60日前一致预期；收入修正由每日时点快照计算。"
         },
-        "scoreChange7d": -5.9,
+        "scoreChange7d": -3.6,
         "historyStatus": {
           "points": 51,
           "firstDate": "2026-08-04",
